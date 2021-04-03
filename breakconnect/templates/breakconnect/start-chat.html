@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/start-chat.css" />
+    <style>
+      @font-face {
+        font-family: "IBMPlexSans";
+        font-style: normal;
+        font-weight: 1 1000;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Regular.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Medium.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Bold.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans-SemiBold";
+        font-style: normal;
+        font-weight: 600;
+        src: url("https://anima-uploads.s3.amazonaws.com/5a7515b7cf6643000c1e724f/IBMPlexSans-SemiBold.ttf")
+          format("truetype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(235, 244, 248, 1)">
+    <input type="hidden" id="anPageName" name="page" value="start-chat" />
+    <div class="container-center-horizontal">
+      <div class="start-chat screen">
+        <div class="component-heade-lace-web-header-C61RwL">
+          <div class="component-heade-lace-web-header-fKQF6J">
+            <div class="component-heade-obal-navigation-bdw52J">
+              <div class="component-heade-obal-navigation-W4A8Nw">
+                <div class="component-heade-global-nav-item-Sp4knt">
+                  <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">Account</div>
+                </div>
+                <div class="component-heade-global-nav-item-9115Dx">
+                  <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">Schedule</div>
+                </div>
+                <div class="component-heade-global-nav-item-rDnUzp">
+                  <div class="component-heade-global-nav-item-aI4v3Y ibmplexsans-normal-charade-16px">Catchups</div>
+                </div>
+              </div>
+            </div>
+            <div class="logo-type-dark-bdw52J">
+              <div class="logo-type-dark-LeOJHj"></div>
+              <img class="rev-kit-LeOJHj" src="img/revkit@1x.png" />
+            </div>
+          </div>
+        </div>
+        <div class="elements-avatar-round-profile-C61RwL">
+          <img class="base-qx3FjC" src="img/base-16@1x.png" />
+          <img
+            class="elements-avatar-round-profile-qx3FjC smart-layers-pointers"
+            src="img/elements-avatar-round-profile@1x.png"
+          />
+        </div>
+        <div class="repeat-grid-1-C61RwL">
+          <div class="flex-col-mrdmCX">
+            <div class="x0-0CBWsV">
+              <div class="component-card-place-card-fill-DGxtnz smart-layers-pointers">
+                <div class="component-card-place-card-fill-YVdIRX">
+                  <div class="base-ctlacO">
+                    <img class="mask-I2pw20" src="img/mask-2@1x.png" />
+                    <img class="base-I2pw20" src="img/base-17@1x.png" />
+                  </div>
+                  <div class="component-card-bal-light-title-ctlacO">
+                    <div class="component-card-bal-light-title-ThqJSF ibmplexsans-bold-white-28px">Mark</div>
+                  </div>
+                  <div class="component-card-ght-description-ctlacO">
+                    <div class="component-card-ght-description-KdjtMj ibmplexsans-normal-white-16px">
+                      I just bought a new car!
+                    </div>
+                  </div>
+                  <div class="icon-ctlacO">
+                    <div class="icon-more-Zfwcdh">
+                      <img class="mask-YxyPrE" src="img/mask-4@1x.png" />
+                      <img class="icon-more-YxyPrE" src="img/icon-more@1x.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x3-0CBWsV">
+              <div class="component-card-place-card-fill-xKZ12Q smart-layers-pointers">
+                <div class="component-card-place-card-fill-ETFN6j">
+                  <div class="base-uOCkyB">
+                    <img class="mask-xwL7iJ" src="img/mask-2@1x.png" />
+                    <img class="base-xwL7iJ" src="img/base-20@1x.png" />
+                  </div>
+                  <div class="component-card-bal-light-title-uOCkyB">
+                    <div class="component-card-bal-light-title-gWx8m6 ibmplexsans-bold-white-28px">Samantha</div>
+                  </div>
+                  <div class="component-card-ght-description-uOCkyB">
+                    <div class="component-card-ght-description-6oy3RO ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-uOCkyB">
+                    <div class="icon-more-67xnKa">
+                      <img class="mask-UyrOPZ" src="img/mask-4@1x.png" />
+                      <img class="icon-more-UyrOPZ" src="img/icon-more@1x.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-nVb0xz">
+            <div class="x1-xexdMT">
+              <div class="component-card-place-card-fill-d1IE9s smart-layers-pointers">
+                <div class="component-card-place-card-fill-S9heQV">
+                  <div class="base-DvJxrs">
+                    <img class="mask-LGxTxx" src="img/mask-2@1x.png" />
+                    <img class="base-LGxTxx" src="img/base-18@1x.png" />
+                  </div>
+                  <div class="component-card-bal-light-title-DvJxrs">
+                    <div class="component-card-bal-light-title-NwM5Hc ibmplexsans-bold-white-28px">Mary</div>
+                  </div>
+                  <div class="component-card-ght-description-DvJxrs">
+                    <div class="component-card-ght-description-PBVlvf ibmplexsans-normal-white-16px">
+                      My son Jim won a science fair at school!
+                    </div>
+                  </div>
+                  <div class="icon-DvJxrs">
+                    <div class="icon-more-6H7RKV">
+                      <img class="mask-Hn4Fg3" src="img/mask-4@1x.png" />
+                      <img class="icon-more-Hn4Fg3" src="img/icon-more@1x.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x4-xexdMT">
+              <div class="component-card-place-card-fill-RqRzxI smart-layers-pointers">
+                <div class="component-card-place-card-fill-fWSV8R">
+                  <div class="base-2k41YL">
+                    <img class="mask-ux9Qrj" src="img/mask-2@1x.png" />
+                    <img class="base-ux9Qrj" src="img/base-21@1x.png" />
+                  </div>
+                  <div class="component-card-bal-light-title-2k41YL">
+                    <div class="component-card-bal-light-title-Ux486U ibmplexsans-bold-white-28px">John</div>
+                  </div>
+                  <div class="component-card-ght-description-2k41YL">
+                    <div class="component-card-ght-description-U9AiWL ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-2k41YL">
+                    <div class="icon-more-ANpzBi">
+                      <img class="mask-0dQVAw" src="img/mask-4@1x.png" />
+                      <img class="icon-more-0dQVAw" src="img/icon-more@1x.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-p2pFTD">
+            <div class="x2-yGchdr">
+              <div class="component-card-place-card-fill-0LLQyn smart-layers-pointers">
+                <div class="component-card-place-card-fill-MKrGyF">
+                  <div class="base-RNKVKS">
+                    <img class="mask-LZkFCY" src="img/mask-2@1x.png" />
+                    <img class="base-LZkFCY" src="img/base-19@1x.png" />
+                  </div>
+                  <div class="component-card-bal-light-title-RNKVKS">
+                    <div class="component-card-bal-light-title-wEFvma ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-RNKVKS">
+                    <div class="component-card-ght-description-zjhIOc ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-RNKVKS">
+                    <div class="icon-more-zrSFu0">
+                      <img class="mask-SPnEsa" src="img/mask-4@1x.png" />
+                      <img class="icon-more-SPnEsa" src="img/icon-more@1x.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x5-yGchdr">
+              <div class="component-card-place-card-fill-pC1wG9 smart-layers-pointers">
+                <div class="component-card-place-card-fill-cyUn5B">
+                  <div class="base-L3JwKy">
+                    <img class="mask-WU99xM" src="img/mask-2@1x.png" />
+                    <img class="base-WU99xM" src="img/base-19@1x.png" />
+                  </div>
+                  <div class="component-card-bal-light-title-L3JwKy">
+                    <div class="component-card-bal-light-title-2mZx24 ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-L3JwKy">
+                    <div class="component-card-ght-description-xycrio ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-L3JwKy">
+                    <div class="icon-more-6h3oxf">
+                      <img class="mask-P3p17z" src="img/mask-4@1x.png" />
+                      <img class="icon-more-P3p17z" src="img/icon-more@1x.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="component-chart-ace-donut-chart-C61RwL">
+          <div class="component-chart-ace-donut-chart-ki4idv">
+            <img class="base-C698dA" src="img/base-23@1x.png" />
+            <div class="description-C698dA">Don&#39;t be shy, choose a co-worker to start a chat!</div>
+            <div class="component-chart-ator-horizontal-C698dA">
+              <div class="component-chart-ator-horizontal-nKJ6RA"></div>
+            </div>
+            <div class="component-chart-title-text-C698dA">
+              <div class="component-card-hart-title-text-MGGDoP">
+                <div class="component-chart-bar-title-2JZCps ibmplexsans-bold-charade-34px">Time left on break</div>
+                <div class="contextual-subheading-2JZCps">15:37</div>
+              </div>
+            </div>
+            <div class="component-chart-lobal-title-bar-C698dA">
+              <div class="component-chart-lobal-title-bar-Uimb1q">
+                <div class="bar-title-3RU9MG ibmplexsans-medium-storm-gray-16px">3/4/21</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="elements-popover-accent-top-C61RwL">
+          <img class="base-7lxsMP" src="img/base-24@1x.png" />
+          <img class="caret-7lxsMP" src="img/caret@1x.png" />
+          <div class="info-7lxsMP">
+            <div class="title-Ncsmuz">
+              I just bought a new telescope, I&#39;ve been dabbling in astrophotography recently!
+            </div>
+          </div>
+        </div>
+        <div class="repeat-grid-2-C61RwL">
+          <div class="x01-jHv1io">
+            <div class="elements-avatar-round-profile-vU7yFj"><img class="base-dl1UDk" src="img/base-25@1x.png" /></div>
+            <div class="elements-chat-b-ght-bottom-left-vU7yFj smart-layers-pointers">
+              <div class="elements-chat-b-ght-bottom-left-4XdK4j">
+                <img class="caret-C3AUfy" src="img/caret-1@1x.png" />
+                <img class="base-C3AUfy" src="img/base-26@1x.png" />
+                <div class="chat-message-C3AUfy ibmplexsans-normal-storm-gray-14px">
+                  Damn man that&#39;s dope, do you have a tracking mount?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="x11-jHv1io">
+            <div class="elements-avatar-round-profile-zC6XBr"><img class="base-I1f0NA" src="img/base-27@1x.png" /></div>
+            <div class="elements-chat-b-ght-bottom-left-zC6XBr smart-layers-pointers">
+              <div class="elements-chat-b-ght-bottom-left-mFG4wc">
+                <img class="caret-6Hcwzv" src="img/caret-1@1x.png" />
+                <img class="base-6Hcwzv" src="img/base-26@1x.png" />
+                <div class="chat-message-6Hcwzv ibmplexsans-normal-storm-gray-14px">
+                  Woah so cool, do you have any photos I can see?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="x21-jHv1io">
+            <div class="elements-avatar-round-profile-l64kn9"><img class="base-WbC1he" src="img/base-29@1x.png" /></div>
+            <div class="elements-chat-b-ght-bottom-left-l64kn9 smart-layers-pointers">
+              <div class="elements-chat-b-ght-bottom-left-vwzYMc">
+                <img class="caret-I1i65q" src="img/caret-1@1x.png" />
+                <img class="base-I1i65q" src="img/base-30@1x.png" />
+                <div class="chat-message-I1i65q ibmplexsans-normal-storm-gray-14px">
+                  How have you been?! Wanna catch up for a beer over zoom after work?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,745 @@
+/* screen - sign-up */
+
+.ibmplexsans-bold-charade-34px {
+  color: var(--charade);
+  font-family: 'IBMPlexSans-Bold', Helvetica;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ibmplexsans-bold-white-28px {
+  color: var(--white);
+  font-family: 'IBMPlexSans-Bold', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ibmplexsans-medium-aqua-haze-16px {
+  color: var(--aqua-haze);
+  font-family: 'IBMPlexSans-Medium', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.ibmplexsans-medium-storm-gray-16px {
+  color: var(--storm-gray);
+  font-family: 'IBMPlexSans-Medium', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.ibmplexsans-normal-cerulean-frost-16px {
+  color: var(--cerulean-frost);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-charade-16px {
+  color: var(--charade);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-steel-blue-16px {
+  color: var(--steel-blue);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-storm-gray-14px {
+  color: var(--storm-gray);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-white-16px {
+  color: var(--white);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+.sign-up {
+  background-color: var(--aqua-haze);
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.sign-up .base-C61RwL {
+  background-color: transparent;
+  height: 746px;
+  left: 376px;
+  object-fit: cover;
+  position: absolute;
+  top: 100px;
+  width: 652px;
+}
+.sign-up .base-DciiAQ {
+  background-color: transparent;
+  height: 146.15%;
+  left: -3.00%;
+  object-fit: cover;
+  position: absolute;
+  top: -15.38%;
+  width: 106.00%;
+}
+.sign-up .base-KmtF20 {
+  background-color: transparent;
+  height: 146.15%;
+  left: -3.00%;
+  object-fit: cover;
+  position: absolute;
+  top: -15.38%;
+  width: 106.00%;
+}
+.sign-up .base-Tz9YPA {
+  background-color: transparent;
+  height: 146.15%;
+  left: -3.00%;
+  object-fit: cover;
+  position: absolute;
+  top: -15.38%;
+  width: 106.00%;
+}
+.sign-up .base-YRCzbi {
+  background-color: transparent;
+  height: 146.15%;
+  left: -3.00%;
+  object-fit: cover;
+  position: absolute;
+  top: -15.38%;
+  width: 106.00%;
+}
+.sign-up .base-pXuHzH {
+  background-color: transparent;
+  height: 185.71%;
+  left: -42.86%;
+  object-fit: cover;
+  position: absolute;
+  top: -28.57%;
+  width: 185.71%;
+}
+.sign-up .base-qEpnVR {
+  background-color: transparent;
+  height: 80px;
+  left: -12px;
+  object-fit: cover;
+  position: absolute;
+  top: -8px;
+  width: 424px;
+}
+.sign-up .base-x2VZAn {
+  background-color: transparent;
+  height: 123.61%;
+  left: -20.87%;
+  object-fit: cover;
+  position: absolute;
+  top: -7.87%;
+  width: 141.74%;
+}
+.sign-up .button-qEpnVR {
+  background-color: transparent;
+  height: auto;
+  left: 172px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: auto;
+}
+.sign-up .component-form-bal-description-VMa6Xf {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: -7.69%;
+  width: calc(100.00% + 2px);
+}
+.sign-up .component-form-bal-description-x2VZAn {
+  background-color: transparent;
+  height: 26px;
+  left: 30px;
+  position: absolute;
+  top: 92px;
+  width: calc(100.00% - 60px);
+}
+.sign-up .component-form-global-link-hU8uyr {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: -2px;
+  width: calc(100.00% + 2px);
+}
+.sign-up .component-form-global-link-x2VZAn {
+  background-color: transparent;
+  height: 26px;
+  left: 30px;
+  position: absolute;
+  top: 118px;
+  width: calc(100.00% - 60px);
+}
+.sign-up .component-form-global-title-NeusLQ {
+  background-color: transparent;
+  height: 46px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: calc(100.00% + 2px);
+}
+.sign-up .component-form-global-title-x2VZAn {
+  background-color: transparent;
+  height: 44px;
+  left: 30px;
+  position: absolute;
+  top: 40px;
+  width: calc(100.00% - 60px);
+}
+.sign-up .component-form-place-sign-up-C61RwL {
+  background-color: transparent;
+  height: 813px;
+  left: 988px;
+  position: absolute;
+  top: 84px;
+  width: 460px;
+}
+.sign-up .component-form-place-sign-up-xVcXBI {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .component-heade-global-nav-item-IxTgWW {
+  background-color: transparent;
+  height: 22px;
+  left: calc(400.00% - 168px);
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 42px;
+}
+.sign-up .component-heade-global-nav-item-mxoZ1G {
+  background-color: transparent;
+  height: 66.67%;
+  left: 43.59%;
+  position: absolute;
+  top: 16.67%;
+  width: 56.41%;
+}
+.sign-up .component-heade-ive-header-copy-C61RwL {
+  background-color: transparent;
+  height: 60px;
+  left: 472px;
+  position: absolute;
+  top: 84px;
+  width: 460px;
+}
+.sign-up .component-heade-ponsive-trigger-elyEUS {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .component-heade-ponsive-trigger-tHI9HX {
+  background-color: transparent;
+  height: 30px;
+  position: absolute;
+  right: 16px;
+  top: calc(50.00% - 15px);
+  width: 78px;
+}
+.sign-up .component-heade-sponsive-header-CkLYbh {
+  background-color: transparent;
+  background-image: url(../image/base-5@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-button-e-accent-normal-UC2Ss6 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-button-x2VZAn {
+  background-color: transparent;
+  bottom: 40px;
+  height: 56px;
+  left: 30px;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: calc(100.00% - 60px);
+}
+.sign-up .controls-button-x2VZAn:hover {
+
+transform: scale(1.02);
+}
+.sign-up .controls-checkbox-YqTEiH {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+.sign-up .controls-checkbox-normal-lESxtH {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-global-label-9DCnNr {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 82.55%;
+}
+.sign-up .controls-global-label-EWz6jK {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 20px;
+  position: relative;
+  width: 134px;
+}
+.sign-up .controls-global-label-LeKmJ5 {
+  background-color: transparent;
+  height: 83.33%;
+  left: -4px;
+  position: relative;
+  top: 0px;
+  width: 19.72%;
+}
+.sign-up .controls-global-label-M8xxpY {
+  background-color: transparent;
+  height: 83.33%;
+  left: -4px;
+  position: relative;
+  top: 0px;
+  width: 20.56%;
+}
+.sign-up .controls-global-label-MxyXZj {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 24px;
+  position: relative;
+  width: 360px;
+}
+.sign-up .controls-global-label-RfrCn7 {
+  background-color: transparent;
+  height: 83.33%;
+  left: -2px;
+  position: relative;
+  top: 0px;
+  width: 11.39%;
+}
+.sign-up .controls-global-label-UN9AEV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 24px;
+  position: relative;
+  width: 360px;
+}
+.sign-up .controls-global-label-YqTEiH {
+  background-color: transparent;
+  height: 71.43%;
+  left: 36px;
+  position: absolute;
+  top: 4px;
+  width: 89.53%;
+}
+.sign-up .controls-global-label-kn8azF {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-global-label-tQEa6u {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 24px;
+  position: relative;
+  width: 360px;
+}
+.sign-up .controls-place-checkbox-x2VZAn {
+  background-color: transparent;
+  height: 28px;
+  left: 30px;
+  position: absolute;
+  top: 668px;
+  width: 400px;
+}
+.sign-up .controls-place-checkbox-ynI4os {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 85.92%;
+}
+.sign-up .controls-place-text-field-1f6r8J {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 0px;
+  min-height: 100%;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-place-text-field-DdaYsx {
+  background-color: transparent;
+  height: 80px;
+  left: 30px;
+  position: absolute;
+  top: 286px;
+  width: calc(100.00% - 60px);
+}
+.sign-up .controls-place-text-field-HS28Cq {
+  background-color: transparent;
+  height: 80px;
+  left: 30px;
+  position: absolute;
+  top: 514px;
+  width: calc(100.00% - 60px);
+}
+.sign-up .controls-place-text-field-WMYAJx {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 0px;
+  min-height: 100%;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-place-text-field-g346aL {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 0px;
+  min-height: 100%;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-place-text-field-vWNzVw {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 0px;
+  min-height: 100%;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-place-text-field-x2VZAn {
+  background-color: transparent;
+  height: 80px;
+  left: 27px;
+  position: absolute;
+  top: 400px;
+  width: calc(100.00% - 57px);
+}
+.sign-up .controls-place-text-field-xm7j55 {
+  background-color: transparent;
+  height: 80px;
+  left: 30px;
+  position: absolute;
+  top: 172px;
+  width: calc(100.00% - 60px);
+}
+.sign-up .controls-text-field-EWz6jK {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 52px;
+  margin-left: 3.55px;
+  margin-top: 8px;
+  position: relative;
+  width: 400px;
+}
+.sign-up .controls-text-field-MxyXZj {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 52px;
+  margin-top: 4px;
+  position: relative;
+  width: 400px;
+}
+.sign-up .controls-text-field-UN9AEV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 52px;
+  margin-top: 4px;
+  position: relative;
+  width: 400px;
+}
+.sign-up .controls-text-field-normal-2c5cad {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-text-field-normal-Fuexmj {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-text-field-normal-GNaKcM {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-text-field-normal-x0C9nR {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-text-field-tQEa6u {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 52px;
+  margin-top: 4px;
+  position: relative;
+  width: 400px;
+}
+.sign-up .icon-menu-pDsVjJ {
+  background-color: transparent;
+  background-image: url(../image/grid@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .icon-menu-toIDGu {
+  background-color: transparent;
+  height: 12px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(50.00% - 8px);
+  top: calc(50.00% - 6px);
+  width: 16px;
+}
+.sign-up .icon-mxoZ1G {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 38.46%;
+}
+.sign-up .label-LEH1AG {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 73px;
+}
+.sign-up .label-N0wx1a {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 76px;
+}
+.sign-up .label-WKxA5H {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 136px;
+}
+.sign-up .label-k8sQ0r {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 256px;
+}
+.sign-up .label-q2ETK2 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 43px;
+}
+.sign-up .logo-type-dark-WsgA5a {
+  background-color: transparent;
+  background-image: url(../image/monogram@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 89.29%;
+  left: 0px;
+  position: absolute;
+  top: 7.14%;
+  width: 22.81%;
+}
+.sign-up .logo-type-dark-tHI9HX {
+  background-color: transparent;
+  height: 28px;
+  left: 16px;
+  position: absolute;
+  top: calc(50.00% - 14px);
+  width: 114px;
+}
+.sign-up .mask-toIDGu {
+  background-color: transparent;
+  height: 40.00%;
+  left: 23.33%;
+  object-fit: cover;
+  position: absolute;
+  top: 30.00%;
+  width: 53.33%;
+}
+.sign-up .placeholder-DciiAQ {
+  background-color: transparent;
+  height: 22px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  width: calc(100.00% - 71px);
+}
+.sign-up .placeholder-KmtF20 {
+  background-color: transparent;
+  height: 22px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  width: calc(100.00% - 71px);
+}
+.sign-up .placeholder-Tz9YPA {
+  background-color: transparent;
+  height: 22px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  width: calc(100.00% - 71px);
+}
+.sign-up .placeholder-YRCzbi {
+  background-color: transparent;
+  height: 22px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  width: calc(100.00% - 71px);
+}
+.sign-up .rev-kit-WsgA5a {
+  background-color: transparent;
+  height: 82.14%;
+  left: 28.95%;
+  object-fit: cover;
+  position: absolute;
+  top: 3.57%;
+  width: 69.30%;
+}
+:root {
+  --aqua-haze: rgba(235,244,248,1.0);
+  --cerulean-frost: rgba(124,156,191,1.0);
+  --charade: rgba(44,39,56,1.0);
+  --steel-blue: rgba(8,128,174,1.0);
+  --storm-gray: rgba(117,111,134,1.0);
+  --white: rgba(255,255,255,1.0);
+}
