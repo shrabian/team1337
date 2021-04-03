@@ -216,11 +216,15 @@
         <div class="component-form-place-sign-in-C61RwL">
           <img class="base-r0SCOi" src="{% static 'breakconnect/img/base-55@1x.png' %}" />
           <div class="component-form-global-link-r0SCOi">
-            <div class="component-form-global-link-tFoBe0 ibmplexsans-normal-steel-blue-16px">Forgot password?</div>
+            <div class="component-form-global-link-tFoBe0 ibmplexsans-normal-steel-blue-16px">
+              <a href="{% url 'breakconnect:reset-password' %}">Forgot password?</a>
+            </div>
           </div>
           <div class="controls-button-r0SCOi smart-layers-pointers">
             <div class="controls-button-e-accent-normal-wG9ECl">
-              <img class="base-9ExXe4" src="{% static 'breakconnect/img/base-3@1x.png' %}" />
+              <a href="{% url 'breakconnect:start-break' %}">
+                <img class="base-9ExXe4" src="{% static 'breakconnect/img/base-3@1x.png' %}" />
+              </a>
               <div class="button-9ExXe4 ibmplexsans-medium-aqua-haze-16px">Sign In</div>
             </div>
           </div>
@@ -255,7 +259,9 @@
             </div>
           </div>
           <div class="component-form-global-link-oKAFI6">
-            <div class="component-form-global-link-kiik8h ibmplexsans-normal-steel-blue-16px">Sign up now</div>
+            <div class="component-form-global-link-kiik8h ibmplexsans-normal-steel-blue-16px">
+              <a href="{% url 'breakconnect:sign-up' %}">Sign up now</a>
+            </div>
           </div>
           <div class="component-form-bal-description-r0SCOi">
             <div class="component-form-bal-description-uWcj2v ibmplexsans-normal-charade-16px">
