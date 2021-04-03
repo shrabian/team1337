@@ -1,4 +1,8 @@
 /* screen - start-chat */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
 
 .ibmplexsans-bold-charade-34px {
   color: var(--charade);

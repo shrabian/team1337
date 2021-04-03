@@ -1,5 +1,10 @@
 /* screen - current-chat */
 
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
 .current-chat {
   align-items: center;
   background-color: var(--aqua-haze);
