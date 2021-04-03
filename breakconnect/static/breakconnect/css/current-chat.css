@@ -1,0 +1,1150 @@
+/* screen - current-chat */
+
+.current-chat {
+  align-items: center;
+  background-color: var(--aqua-haze);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1200px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 76.5px 0;
+  position: relative;
+  width: 1920px;
+}
+.current-chat .bar-title-mcfxe4 {
+  background-color: transparent;
+  height: 22px;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 19px;
+  width: calc(100.00% - 46px);
+}
+.current-chat .base-FRjgfd {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-K5ycrV {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-L2noQf {
+  background-color: transparent;
+  height: calc(100.00% - 9px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-QtQpAB {
+  background-color: transparent;
+  height: calc(100.00% - 9px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-T2n7m7 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-ZBrjcj {
+  background-color: transparent;
+  height: 88.12%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 100%;
+}
+.current-chat .base-cJbakx {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-gZkxjN {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-hzKeH2 {
+  background-color: transparent;
+  height: 132.88%;
+  left: -2.94%;
+  object-fit: cover;
+  position: absolute;
+  top: -10.96%;
+  width: 105.88%;
+}
+.current-chat .base-j05Tn7 {
+  background-color: transparent;
+  height: calc(100.00% - 9px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-n6SZaN {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-xoUFZs {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-xplgac {
+  background-color: transparent;
+  height: 161.86%;
+  left: -52.96%;
+  object-fit: cover;
+  position: absolute;
+  top: -20.62%;
+  width: 205.92%;
+}
+.current-chat .base-xyB2zp {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .base-z8qb6t {
+  background-color: transparent;
+  height: calc(100.00% - 9px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .caret-L2noQf {
+  background-color: transparent;
+  bottom: 0px;
+  height: 18px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  width: 9px;
+}
+.current-chat .caret-QtQpAB {
+  background-color: transparent;
+  bottom: 0px;
+  height: 18px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  width: 9px;
+}
+.current-chat .caret-ZBrjcj {
+  background-color: transparent;
+  height: 9px;
+  left: calc(10.00% - 2px);
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 20px;
+}
+.current-chat .caret-j05Tn7 {
+  background-color: transparent;
+  bottom: 0px;
+  height: 18px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  width: 9px;
+}
+.current-chat .caret-z8qb6t {
+  background-color: transparent;
+  bottom: 0px;
+  height: 18px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  width: 9px;
+}
+.current-chat .chat-message-L2noQf {
+  background-color: transparent;
+  height: 69px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  width: 87.50%;
+}
+.current-chat .chat-message-QtQpAB {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: None;
+  height: 60px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  opacity: 0.86;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  width: calc(100.00% - 30px);
+}
+.current-chat .chat-message-j05Tn7 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: None;
+  height: 60px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  opacity: 0.86;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  width: calc(100.00% - 30px);
+}
+.current-chat .chat-message-z8qb6t {
+  background-color: transparent;
+  height: 69px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  width: 87.50%;
+}
+.current-chat .component-card-bal-light-title-9WxT72 {
+  background-color: transparent;
+  height: 45px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: calc(100.00% + 2px);
+}
+.current-chat .component-card-bal-light-title-xoUFZs {
+  background-color: transparent;
+  bottom: 76px;
+  height: 8.60%;
+  left: 20px;
+  position: absolute;
+  width: calc(100.00% - 40px);
+}
+.current-chat .component-card-ght-description-eMwZgX {
+  background-color: transparent;
+  height: 53px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: -5.89%;
+  width: calc(100.00% + 2px);
+}
+.current-chat .component-card-ght-description-xoUFZs {
+  background-color: transparent;
+  bottom: 23px;
+  height: 10.23%;
+  left: 20px;
+  position: absolute;
+  width: calc(100.00% - 40px);
+}
+.current-chat .component-card-hart-title-text-LlCjsQ {
+  background-color: transparent;
+  height: 88px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-card-place-card-fill-82GOoX {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 498px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 346px;
+}
+.current-chat .component-card-place-card-fill-82GOoX:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.current-chat .component-card-place-card-fill-IexxeY {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-card-place-card-fill-a16coa {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-card-place-card-fill-ehIv4N {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 498px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 346px;
+}
+.current-chat .component-card-place-card-fill-ehIv4N:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.current-chat .component-card-place-card-fill-kp5Q1m {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 498px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 346px;
+}
+.current-chat .component-card-place-card-fill-kp5Q1m:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.current-chat .component-card-place-card-fill-nZXmhg {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 498px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 346px;
+}
+.current-chat .component-card-place-card-fill-nZXmhg:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.current-chat .component-card-place-card-fill-xfS0EV {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-card-place-card-fill-z0N5zy {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-chart-ace-donut-chart-Bxu9WK {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-chart-ace-donut-chart-r8T6eX {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-chart-ator-horizontal-G0FEoG {
+  background-color: transparent;
+  background-image: url(../img/seprator@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-chart-ator-horizontal-xplgac {
+  background-color: transparent;
+  height: 0px;
+  left: 5.00%;
+  position: absolute;
+  top: 84.81%;
+  width: 90.00%;
+}
+.current-chat .component-chart-bar-title-iw9h9h {
+  background-color: transparent;
+  height: 90px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 100.47%;
+}
+.current-chat .component-chart-lobal-title-bar-FUM5iA {
+  background-color: transparent;
+  background-image: url(../img/fill@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-chart-lobal-title-bar-xplgac {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-chart-title-text-xplgac {
+  background-color: transparent;
+  height: 11.34%;
+  left: 20px;
+  position: absolute;
+  top: 80px;
+  width: 93.33%;
+}
+.current-chat .component-heade-global-nav-item-9115Dx {
+  background-color: transparent;
+  height: 20px;
+  left: 38.34%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 26.48%;
+}
+.current-chat .component-heade-global-nav-item-L5Zhlx {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 69px;
+}
+.current-chat .component-heade-global-nav-item-Sp4knt {
+  background-color: transparent;
+  height: 20px;
+  left: 76.68%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 23.32%;
+}
+.current-chat .component-heade-global-nav-item-a6SLZt {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 61px;
+}
+.current-chat .component-heade-global-nav-item-aI4v3Y {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 69px;
+}
+.current-chat .component-heade-global-nav-item-rDnUzp {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 26.48%;
+}
+.current-chat .component-heade-lace-web-header-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 60px;
+  position: relative;
+  width: 1200px;
+}
+.current-chat .component-heade-lace-web-header-fKQF6J {
+  background-color: transparent;
+  background-image: url(../img/base-18@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-heade-obal-navigation-W4A8Nw {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .component-heade-obal-navigation-bdw52J {
+  background-color: transparent;
+  height: 33.33%;
+  left: 905px;
+  position: absolute;
+  top: 33.33%;
+  width: 253px;
+}
+.current-chat .contextual-subheading-iw9h9h {
+  background-color: transparent;
+  bottom: calc(23.81% - 6px);
+  color: rgba(114,129,145,1.0);
+  font-family: 'IBMPlexSans-Medium', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  height: 25px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+.current-chat .controls-text-field-normal-agSvSc {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .controls-text-field-r8T6eX {
+  background-color: transparent;
+  height: calc(100.00% - 703px);
+  left: 28px;
+  position: absolute;
+  top: 677px;
+  width: 90.04%;
+}
+.current-chat .elements-chat-b-ght-bottom-left-akCis6 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .elements-chat-b-ght-bottom-left-nCuMbC {
+  background-color: transparent;
+  bottom: calc(20.03% - 18px);
+  height: 91px;
+  left: 41px;
+  position: absolute;
+  width: 240px;
+}
+.current-chat .elements-chat-b-ght-bottom-left-r8T6eX {
+  background-color: transparent;
+  bottom: calc(47.53% - 45px);
+  height: 96px;
+  left: 41px;
+  position: absolute;
+  width: 240px;
+}
+.current-chat .elements-chat-b-ght-bottom-left-xTXXCH {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .elements-chat-b-ry-bottom-right-GSqK62 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .elements-chat-b-ry-bottom-right-nCuMbC {
+  background-color: transparent;
+  bottom: calc(33.50% - 24px);
+  height: 71px;
+  position: absolute;
+  right: 27px;
+  width: 240px;
+}
+.current-chat .elements-chat-b-ry-bottom-right-r8T6eX {
+  background-color: transparent;
+  height: 88px;
+  position: absolute;
+  right: 36px;
+  top: calc(37.91% - 33px);
+  width: 240px;
+}
+.current-chat .elements-chat-b-ry-bottom-right-yBTHBS {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .elements-popover-accent-top-C8wgmx {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .elements-popover-accent-top-r8T6eX {
+  background-color: transparent;
+  height: 77px;
+  left: 41px;
+  position: absolute;
+  top: calc(23.95% - 18px);
+  width: 180px;
+}
+.current-chat .flex-col-LxlKCt {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: -1px;
+  min-height: 1018px;
+  position: relative;
+  width: 346px;
+}
+.current-chat .flex-col-cHeKPM {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 32px;
+  min-height: 1018px;
+  position: relative;
+  width: 346px;
+}
+.current-chat .flex-row-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 1032px;
+  justify-content: flex-start;
+  margin-right: 4.0px;
+  margin-top: 18px;
+  min-width: 1196px;
+  position: relative;
+  width: auto;
+}
+.current-chat .group-3-h7LeMT {
+  background-color: transparent;
+  height: 776px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 453px;
+}
+.current-chat .icon-K5ycrV {
+  background-color: transparent;
+  height: 30px;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+  width: 30px;
+}
+.current-chat .icon-T2n7m7 {
+  background-color: transparent;
+  height: 30px;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+  width: 30px;
+}
+.current-chat .icon-comment-FOidCs {
+  background-color: transparent;
+  bottom: 4px;
+  height: 20px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  width: calc(100.00% - 8px);
+}
+.current-chat .icon-comment-h7LeMT {
+  background-color: transparent;
+  height: 30px;
+  left: 391px;
+  pointer-events: auto;
+  position: absolute;
+  top: 698px;
+  transition: all 0.2s ease;
+  width: 30px;
+}
+.current-chat .icon-comment-h7LeMT:hover {
+
+transform: scale(1.1);
+}
+.current-chat .icon-comment-tftWem {
+  background-color: transparent;
+  background-image: url(../img/grid@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .icon-gZkxjN {
+  background-color: transparent;
+  height: 30px;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+  width: 30px;
+}
+.current-chat .icon-more-GZVPyo {
+  background-color: transparent;
+  background-image: url(../img/grid@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .icon-more-Si6b2Z {
+  background-color: transparent;
+  background-image: url(../img/grid@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .icon-more-b52LyA {
+  background-color: transparent;
+  height: 18px;
+  left: calc(50.00% - 2px);
+  object-fit: cover;
+  position: absolute;
+  top: calc(50.00% - 9px);
+  width: 4px;
+}
+.current-chat .icon-more-d2NH2w {
+  background-color: transparent;
+  height: 18px;
+  left: calc(50.00% - 2px);
+  object-fit: cover;
+  position: absolute;
+  top: calc(50.00% - 9px);
+  width: 4px;
+}
+.current-chat .icon-more-dCq1Uc {
+  background-color: transparent;
+  background-image: url(../img/grid@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .icon-more-oOtETB {
+  background-color: transparent;
+  background-image: url(../img/grid@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .icon-more-tVWZhS {
+  background-color: transparent;
+  height: 18px;
+  left: calc(50.00% - 2px);
+  object-fit: cover;
+  position: absolute;
+  top: calc(50.00% - 9px);
+  width: 4px;
+}
+.current-chat .icon-more-vu4kDf {
+  background-color: transparent;
+  height: 18px;
+  left: calc(50.00% - 2px);
+  object-fit: cover;
+  position: absolute;
+  top: calc(50.00% - 9px);
+  width: 4px;
+}
+.current-chat .icon-xoUFZs {
+  background-color: transparent;
+  height: 30px;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+  width: 30px;
+}
+.current-chat .info-ZBrjcj {
+  background-color: transparent;
+  height: 54.42%;
+  left: 16px;
+  position: absolute;
+  top: 25px;
+  width: calc(100.00% - 32px);
+}
+.current-chat .logo-type-dark-LeOJHj {
+  background-color: transparent;
+  background-image: url(../img/monogram@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.current-chat .logo-type-dark-bdw52J {
+  background-color: transparent;
+  bottom: calc(48.57% - 12px);
+  height: 25px;
+  left: 16px;
+  position: absolute;
+  width: 26px;
+}
+.current-chat .mask-FOidCs {
+  background-color: transparent;
+  height: 66.68%;
+  left: 13.33%;
+  object-fit: cover;
+  position: absolute;
+  top: 20.00%;
+  width: 73.33%;
+}
+.current-chat .mask-FRjgfd {
+  background-color: transparent;
+  height: 128.94%;
+  left: -20.82%;
+  object-fit: cover;
+  position: absolute;
+  top: -9.65%;
+  width: 141.64%;
+}
+.current-chat .mask-b52LyA {
+  background-color: transparent;
+  height: 60.00%;
+  left: 43.33%;
+  object-fit: cover;
+  position: absolute;
+  top: 20.00%;
+  width: 13.33%;
+}
+.current-chat .mask-cJbakx {
+  background-color: transparent;
+  height: 128.94%;
+  left: -20.82%;
+  object-fit: cover;
+  position: absolute;
+  top: -9.65%;
+  width: 141.64%;
+}
+.current-chat .mask-d2NH2w {
+  background-color: transparent;
+  height: 60.00%;
+  left: 43.33%;
+  object-fit: cover;
+  position: absolute;
+  top: 20.00%;
+  width: 13.33%;
+}
+.current-chat .mask-n6SZaN {
+  background-color: transparent;
+  height: 128.94%;
+  left: -20.82%;
+  object-fit: cover;
+  position: absolute;
+  top: -9.65%;
+  width: 141.64%;
+}
+.current-chat .mask-tVWZhS {
+  background-color: transparent;
+  height: 60.00%;
+  left: 43.33%;
+  object-fit: cover;
+  position: absolute;
+  top: 20.00%;
+  width: 13.33%;
+}
+.current-chat .mask-vu4kDf {
+  background-color: transparent;
+  height: 60.00%;
+  left: 43.33%;
+  object-fit: cover;
+  position: absolute;
+  top: 20.00%;
+  width: 13.33%;
+}
+.current-chat .mask-xyB2zp {
+  background-color: transparent;
+  height: 128.94%;
+  left: -20.82%;
+  object-fit: cover;
+  position: absolute;
+  top: -9.65%;
+  width: 141.64%;
+}
+.current-chat .overlap-group-dXBp89 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 776px;
+  margin-left: 16px;
+  position: relative;
+  width: 453px;
+}
+.current-chat .placeholder-hzKeH2 {
+  background-color: transparent;
+  height: 45px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  width: calc(100.00% - 71px);
+}
+.current-chat .repeat-grid-1-dXBp89 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 1032px;
+  justify-content: flex-start;
+  min-width: 727px;
+  position: relative;
+  width: auto;
+}
+.current-chat .title-nLc2dY {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'IBMPlexSans-Medium', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  height: 44px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 101.35%;
+}
+.current-chat .x02-YHy6i4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 498px;
+  justify-content: flex-start;
+  min-width: 346px;
+  position: relative;
+  width: auto;
+}
+.current-chat .x11-mlFh8x {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 498px;
+  justify-content: flex-start;
+  min-width: 346px;
+  position: relative;
+  width: auto;
+}
+.current-chat .x21-YHy6i4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 498px;
+  justify-content: flex-start;
+  margin-top: 23px;
+  min-width: 346px;
+  position: relative;
+  width: auto;
+}
+.current-chat .x31-mlFh8x {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 498px;
+  justify-content: flex-start;
+  margin-top: 23px;
+  min-width: 346px;
+  position: relative;
+  width: auto;
+}
+.ibmplexsans-bold-charade-34px {
+  color: var(--charade);
+  font-family: 'IBMPlexSans-Bold', Helvetica;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ibmplexsans-bold-white-28px {
+  color: var(--white);
+  font-family: 'IBMPlexSans-Bold', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ibmplexsans-medium-aqua-haze-16px {
+  color: var(--aqua-haze);
+  font-family: 'IBMPlexSans-Medium', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.ibmplexsans-medium-storm-gray-16px {
+  color: var(--storm-gray);
+  font-family: 'IBMPlexSans-Medium', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.ibmplexsans-normal-cerulean-frost-16px {
+  color: var(--cerulean-frost);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-charade-16px {
+  color: var(--charade);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-steel-blue-16px {
+  color: var(--steel-blue);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-storm-gray-14px {
+  color: var(--storm-gray);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: None;
+}
+.ibmplexsans-normal-white-16px {
+  color: var(--white);
+  font-family: 'IBMPlexSans', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: None;
+}
+:root {
+  --aqua-haze: rgba(235,244,248,1.0);
+  --cerulean-frost: rgba(124,156,191,1.0);
+  --charade: rgba(44,39,56,1.0);
+  --steel-blue: rgba(8,128,174,1.0);
+  --storm-gray: rgba(117,111,134,1.0);
+  --white: rgba(255,255,255,1.0);
+}
