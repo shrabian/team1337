@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'breakconnect.apps.BreakconnectConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -75,16 +76,11 @@ WSGI_APPLICATION = 'hackiethon.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        "CLIENT": {
-           "name": "coffeeBreak",
-           "host": "mongodb+srv://breakconnect:breakconnect@cluster0.0jh92.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-           "username": "breakconnect",
-           "password": "breakconnect",
-           "authMechanism": "SCRAM-SHA-1",
-        }, 
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
