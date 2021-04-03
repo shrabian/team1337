@@ -106,15 +106,6 @@
   top: 9px;
   width: 100%;
 }
-.start-chat .base-7WZ7rH {
-  background-color: transparent;
-  height: 67px;
-  left: -12px;
-  object-fit: cover;
-  position: absolute;
-  top: -8px;
-  width: 67px;
-}
 .start-chat .base-AA4Uuz {
   background-color: transparent;
   flex-shrink: 1;
@@ -603,7 +594,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .start-chat .component-chart-lobal-title-bar-sVN1rh {
   background-color: transparent;
-  background-image: url(../img/fill-1@1x.png);
+  background-image: url(../img/fill@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 100%;
@@ -628,7 +619,35 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 80px;
   width: 93.33%;
 }
-.start-chat .component-heade-global-nav-item-AxwBbr {
+.start-chat .component-heade-global-nav-item-9115Dx {
+  background-color: transparent;
+  height: 20px;
+  left: 38.34%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 26.48%;
+}
+.start-chat .component-heade-global-nav-item-L5Zhlx {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 69px;
+}
+.start-chat .component-heade-global-nav-item-Sp4knt {
+  background-color: transparent;
+  height: 20px;
+  left: 76.68%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 23.32%;
+}
+.start-chat .component-heade-global-nav-item-a6SLZt {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -640,7 +659,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   white-space: nowrap;
   width: 61px;
 }
-.start-chat .component-heade-global-nav-item-HF4mYH {
+.start-chat .component-heade-global-nav-item-aI4v3Y {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -652,27 +671,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   white-space: nowrap;
   width: 69px;
 }
-.start-chat .component-heade-global-nav-item-dY8Qxi {
-  background-color: transparent;
-  height: 20px;
-  left: 38.34%;
-  position: absolute;
-  top: calc(50.00% - 10px);
-  width: 26.48%;
-}
-.start-chat .component-heade-global-nav-item-tLXuBf {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 10.00%;
-  white-space: nowrap;
-  width: 69px;
-}
-.start-chat .component-heade-global-nav-item-uoPVLx {
+.start-chat .component-heade-global-nav-item-rDnUzp {
   background-color: transparent;
   height: 20px;
   left: 0px;
@@ -680,25 +679,16 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: calc(50.00% - 10px);
   width: 26.48%;
 }
-.start-chat .component-heade-global-nav-item-vsUOeo {
+.start-chat .component-heade-lace-web-header-C61RwL {
   background-color: transparent;
-  height: 20px;
-  left: 76.68%;
-  position: absolute;
-  top: calc(50.00% - 10px);
-  width: 23.32%;
+  flex-shrink: 1;
+  height: 60px;
+  position: relative;
+  width: 1200px;
 }
-.start-chat .component-heade-lace-web-header-PIEh7b {
+.start-chat .component-heade-lace-web-header-fKQF6J {
   background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-.start-chat .component-heade-lace-web-header-upNTzx {
-  background-color: transparent;
-  background-image: url(../img/base-5@1x.png);
+  background-image: url(../img/base-18@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 100%;
@@ -707,7 +697,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 0px;
   width: 100%;
 }
-.start-chat .component-heade-obal-navigation-RpxB3x {
+.start-chat .component-heade-obal-navigation-W4A8Nw {
   background-color: transparent;
   height: 100%;
   left: 0px;
@@ -715,10 +705,10 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 0px;
   width: 100%;
 }
-.start-chat .component-heade-obal-navigation-lYzOxP {
+.start-chat .component-heade-obal-navigation-bdw52J {
   background-color: transparent;
   height: 33.33%;
-  left: 832px;
+  left: 905px;
   position: absolute;
   top: 33.33%;
   width: 253px;
@@ -768,21 +758,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   position: relative;
   width: auto;
 }
-.start-chat .elements-avatar-round-profile-7WZ7rH {
-  background-color: transparent;
-  height: 43px;
-  left: 0px;
-  object-fit: cover;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 43px;
-}
-.start-chat .elements-avatar-round-profile-7WZ7rH:hover {
-
-transform: scale(1.1);
-}
 .start-chat .elements-avatar-round-profile-Gw4LiT {
   align-items: flex-start;
   background-color: transparent;
@@ -809,14 +784,6 @@ transform: scale(1.1);
   min-width: 56px;
   position: relative;
   width: auto;
-}
-.start-chat .elements-avatar-round-profile-PIEh7b {
-  background-color: transparent;
-  height: 72.07%;
-  left: 93.79%;
-  position: absolute;
-  top: 13.97%;
-  width: 3.60%;
 }
 .start-chat .elements-chat-b-ght-bottom-left-4eDQ5s {
   background-color: transparent;
@@ -946,13 +913,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   position: relative;
   width: 453px;
 }
-.start-chat .group-6-C61RwL {
-  background-color: transparent;
-  flex-shrink: 1;
-  height: 60px;
-  position: relative;
-  width: 1200px;
-}
 .start-chat .icon-MnkzXL {
   background-color: transparent;
   height: 30px;
@@ -1073,7 +1033,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 18px;
   width: calc(100.00% - 42px);
 }
-.start-chat .logo-type-dark-Tv4Nax {
+.start-chat .logo-type-dark-LeOJHj {
   background-color: transparent;
   background-image: url(../img/monogram@1x.png);
   background-position: 50% 50%;
@@ -1084,7 +1044,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 0px;
   width: 100%;
 }
-.start-chat .logo-type-dark-lYzOxP {
+.start-chat .logo-type-dark-bdw52J {
   background-color: transparent;
   bottom: calc(48.57% - 12px);
   height: 25px;

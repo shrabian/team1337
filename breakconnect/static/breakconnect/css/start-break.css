@@ -141,15 +141,6 @@
   top: -8px;
   width: 204px;
 }
-.start-break .base-aTOuep {
-  background-color: transparent;
-  height: 155.50%;
-  left: -27.75%;
-  object-fit: cover;
-  position: absolute;
-  top: -18.50%;
-  width: 155.50%;
-}
 .start-break .base-cYb587 {
   background-color: transparent;
   height: 76px;
@@ -357,7 +348,7 @@
 }
 .start-break .component-chart-lobal-title-bar-xfTNx1 {
   background-color: transparent;
-  background-image: url(../img/fill-1@1x.png);
+  background-image: url(../img/fill@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 100%;
@@ -374,7 +365,15 @@
   top: 80px;
   width: 93.33%;
 }
-.start-break .component-heade-global-nav-item-Au3wLn {
+.start-break .component-heade-global-nav-item-9115Dx {
+  background-color: transparent;
+  height: 20px;
+  left: 38.34%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 26.48%;
+}
+.start-break .component-heade-global-nav-item-L5Zhlx {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -386,7 +385,15 @@
   white-space: nowrap;
   width: 69px;
 }
-.start-break .component-heade-global-nav-item-M5iw2V {
+.start-break .component-heade-global-nav-item-Sp4knt {
+  background-color: transparent;
+  height: 20px;
+  left: 76.68%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 23.32%;
+}
+.start-break .component-heade-global-nav-item-a6SLZt {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -398,7 +405,7 @@
   white-space: nowrap;
   width: 61px;
 }
-.start-break .component-heade-global-nav-item-QhSBwG {
+.start-break .component-heade-global-nav-item-aI4v3Y {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -410,23 +417,7 @@
   white-space: nowrap;
   width: 69px;
 }
-.start-break .component-heade-global-nav-item-Ump7AH {
-  background-color: transparent;
-  height: 20px;
-  left: 76.68%;
-  position: absolute;
-  top: calc(50.00% - 10px);
-  width: 23.32%;
-}
-.start-break .component-heade-global-nav-item-i5dl0p {
-  background-color: transparent;
-  height: 20px;
-  left: 38.34%;
-  position: absolute;
-  top: calc(50.00% - 10px);
-  width: 26.48%;
-}
-.start-break .component-heade-global-nav-item-kQlRXx {
+.start-break .component-heade-global-nav-item-rDnUzp {
   background-color: transparent;
   height: 20px;
   left: 0px;
@@ -434,17 +425,17 @@
   top: calc(50.00% - 10px);
   width: 26.48%;
 }
-.start-break .component-heade-lace-web-header-VyzZeT {
+.start-break .component-heade-lace-web-header-C61RwL {
+  align-self: center;
   background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
+  flex-shrink: 1;
+  height: 60px;
+  position: relative;
+  width: 1200px;
 }
-.start-break .component-heade-lace-web-header-xkLem0 {
+.start-break .component-heade-lace-web-header-fKQF6J {
   background-color: transparent;
-  background-image: url(../img/base-5@1x.png);
+  background-image: url(../img/base-18@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 100%;
@@ -453,7 +444,7 @@
   top: 0px;
   width: 100%;
 }
-.start-break .component-heade-obal-navigation-3ozrLF {
+.start-break .component-heade-obal-navigation-W4A8Nw {
   background-color: transparent;
   height: 100%;
   left: 0px;
@@ -461,10 +452,10 @@
   top: 0px;
   width: 100%;
 }
-.start-break .component-heade-obal-navigation-WbxmQm {
+.start-break .component-heade-obal-navigation-bdw52J {
   background-color: transparent;
   height: 33.33%;
-  left: 832px;
+  left: 905px;
   position: absolute;
   top: 33.33%;
   width: 253px;
@@ -629,29 +620,6 @@ transform: scale(1.02);
   text-align: center;
   width: calc(100.00% - 58px);
 }
-.start-break .elements-avatar-round-profile-VyzZeT {
-  background-color: transparent;
-  height: 72.07%;
-  left: 93.79%;
-  pointer-events: auto;
-  position: absolute;
-  top: 13.97%;
-  transition: all 0.2s ease;
-  width: 3.60%;
-}
-.start-break .elements-avatar-round-profile-VyzZeT:hover {
-
-transform: scale(1.1);
-}
-.start-break .elements-avatar-round-profile-aTOuep {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 100.00%;
-}
 .start-break .flex-col-LxlKCt {
   align-items: flex-start;
   background-color: transparent;
@@ -695,14 +663,6 @@ transform: scale(1.1);
   min-width: 1198px;
   position: relative;
   width: auto;
-}
-.start-break .group-1-C61RwL {
-  align-self: center;
-  background-color: transparent;
-  flex-shrink: 1;
-  height: 60px;
-  position: relative;
-  width: 1200px;
 }
 .start-break .group-2-dXBp89 {
   background-color: transparent;
@@ -945,15 +905,7 @@ transform: scale(1.1);
   white-space: nowrap;
   width: 49px;
 }
-.start-break .logo-type-dark-WbxmQm {
-  background-color: transparent;
-  bottom: calc(48.57% - 12px);
-  height: 25px;
-  left: 16px;
-  position: absolute;
-  width: 26px;
-}
-.start-break .logo-type-dark-YpnHN8 {
+.start-break .logo-type-dark-LeOJHj {
   background-color: transparent;
   background-image: url(../img/monogram@1x.png);
   background-position: 50% 50%;
@@ -964,10 +916,18 @@ transform: scale(1.1);
   top: 0px;
   width: 100%;
 }
+.start-break .logo-type-dark-bdw52J {
+  background-color: transparent;
+  bottom: calc(48.57% - 12px);
+  height: 25px;
+  left: 16px;
+  position: absolute;
+  width: 26px;
+}
 .start-break .lt-4wKRxZ {
   align-items: center;
   background-color: transparent;
-  background-image: url(../img/base-14@1x.png);
+  background-image: url(../img/base-12@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   box-sizing: border-box;
@@ -985,7 +945,7 @@ transform: scale(1.1);
 .start-break .lt-cYb587 {
   align-items: center;
   background-color: transparent;
-  background-image: url(../img/base-14@1x.png);
+  background-image: url(../img/base-12@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   box-sizing: border-box;
@@ -1135,7 +1095,7 @@ transform: scale(1.1);
 .start-break .rt-4wKRxZ {
   align-items: center;
   background-color: transparent;
-  background-image: url(../img/base-14@1x.png);
+  background-image: url(../img/base-12@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   box-sizing: border-box;
@@ -1153,7 +1113,7 @@ transform: scale(1.1);
 .start-break .rt-cYb587 {
   align-items: center;
   background-color: transparent;
-  background-image: url(../img/base-18@1x.png);
+  background-image: url(../img/base-16@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   box-sizing: border-box;

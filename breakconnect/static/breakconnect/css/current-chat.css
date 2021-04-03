@@ -25,15 +25,6 @@
   top: 19px;
   width: calc(100.00% - 46px);
 }
-.current-chat .base-F523xW {
-  background-color: transparent;
-  height: 67px;
-  left: -12px;
-  object-fit: cover;
-  position: absolute;
-  top: -8px;
-  width: 67px;
-}
 .current-chat .base-FRjgfd {
   background-color: transparent;
   height: 100%;
@@ -448,7 +439,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .current-chat .component-chart-lobal-title-bar-FUM5iA {
   background-color: transparent;
-  background-image: url(../img/fill-1@1x.png);
+  background-image: url(../img/fill@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 100%;
@@ -473,7 +464,35 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 80px;
   width: 93.33%;
 }
-.current-chat .component-heade-global-nav-item-7zUZrk {
+.current-chat .component-heade-global-nav-item-9115Dx {
+  background-color: transparent;
+  height: 20px;
+  left: 38.34%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 26.48%;
+}
+.current-chat .component-heade-global-nav-item-L5Zhlx {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 10.00%;
+  white-space: nowrap;
+  width: 69px;
+}
+.current-chat .component-heade-global-nav-item-Sp4knt {
+  background-color: transparent;
+  height: 20px;
+  left: 76.68%;
+  position: absolute;
+  top: calc(50.00% - 10px);
+  width: 23.32%;
+}
+.current-chat .component-heade-global-nav-item-a6SLZt {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -485,7 +504,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   white-space: nowrap;
   width: 61px;
 }
-.current-chat .component-heade-global-nav-item-HJjipq {
+.current-chat .component-heade-global-nav-item-aI4v3Y {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -497,7 +516,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   white-space: nowrap;
   width: 69px;
 }
-.current-chat .component-heade-global-nav-item-Pwizlm {
+.current-chat .component-heade-global-nav-item-rDnUzp {
   background-color: transparent;
   height: 20px;
   left: 0px;
@@ -505,37 +524,16 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: calc(50.00% - 10px);
   width: 26.48%;
 }
-.current-chat .component-heade-global-nav-item-hZRdHy {
+.current-chat .component-heade-lace-web-header-C61RwL {
   background-color: transparent;
-  height: 20px;
-  left: 38.34%;
-  position: absolute;
-  top: calc(50.00% - 10px);
-  width: 26.48%;
+  flex-shrink: 1;
+  height: 60px;
+  position: relative;
+  width: 1200px;
 }
-.current-chat .component-heade-global-nav-item-jyKMGe {
+.current-chat .component-heade-lace-web-header-fKQF6J {
   background-color: transparent;
-  height: 20px;
-  left: 76.68%;
-  position: absolute;
-  top: calc(50.00% - 10px);
-  width: 23.32%;
-}
-.current-chat .component-heade-global-nav-item-v0CRje {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 10.00%;
-  white-space: nowrap;
-  width: 69px;
-}
-.current-chat .component-heade-lace-web-header-0P1G6P {
-  background-color: transparent;
-  background-image: url(../img/base-5@1x.png);
+  background-image: url(../img/base-18@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 100%;
@@ -544,29 +542,21 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 0px;
   width: 100%;
 }
-.current-chat .component-heade-lace-web-header-KOsP6k {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-.current-chat .component-heade-obal-navigation-GWtGSt {
-  background-color: transparent;
-  height: 33.33%;
-  left: 832px;
-  position: absolute;
-  top: 33.33%;
-  width: 253px;
-}
-.current-chat .component-heade-obal-navigation-USFZRl {
+.current-chat .component-heade-obal-navigation-W4A8Nw {
   background-color: transparent;
   height: 100%;
   left: 0px;
   position: relative;
   top: 0px;
   width: 100%;
+}
+.current-chat .component-heade-obal-navigation-bdw52J {
+  background-color: transparent;
+  height: 33.33%;
+  left: 905px;
+  position: absolute;
+  top: 33.33%;
+  width: 253px;
 }
 .current-chat .contextual-subheading-iw9h9h {
   background-color: transparent;
@@ -599,29 +589,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   position: absolute;
   top: 677px;
   width: 90.04%;
-}
-.current-chat .elements-avatar-round-profile-F523xW {
-  background-color: transparent;
-  height: 43px;
-  left: 0px;
-  object-fit: cover;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 43px;
-}
-.current-chat .elements-avatar-round-profile-F523xW:hover {
-
-transform: scale(1.1);
-}
-.current-chat .elements-avatar-round-profile-KOsP6k {
-  background-color: transparent;
-  height: 72.07%;
-  left: 93.79%;
-  position: absolute;
-  top: 13.97%;
-  width: 3.60%;
 }
 .current-chat .elements-chat-b-ght-bottom-left-akCis6 {
   background-color: transparent;
@@ -753,13 +720,6 @@ transform: scale(1.1);
   position: absolute;
   top: 0px;
   width: 453px;
-}
-.current-chat .group-4-C61RwL {
-  background-color: transparent;
-  flex-shrink: 1;
-  height: 60px;
-  position: relative;
-  width: 1200px;
 }
 .current-chat .icon-K5ycrV {
   background-color: transparent;
@@ -915,15 +875,7 @@ transform: scale(1.1);
   top: 25px;
   width: calc(100.00% - 32px);
 }
-.current-chat .logo-type-dark-GWtGSt {
-  background-color: transparent;
-  bottom: calc(48.57% - 12px);
-  height: 25px;
-  left: 16px;
-  position: absolute;
-  width: 26px;
-}
-.current-chat .logo-type-dark-vx3nh7 {
+.current-chat .logo-type-dark-LeOJHj {
   background-color: transparent;
   background-image: url(../img/monogram@1x.png);
   background-position: 50% 50%;
@@ -933,6 +885,14 @@ transform: scale(1.1);
   position: relative;
   top: 0px;
   width: 100%;
+}
+.current-chat .logo-type-dark-bdw52J {
+  background-color: transparent;
+  bottom: calc(48.57% - 12px);
+  height: 25px;
+  left: 16px;
+  position: absolute;
+  width: 26px;
 }
 .current-chat .mask-FOidCs {
   background-color: transparent;
