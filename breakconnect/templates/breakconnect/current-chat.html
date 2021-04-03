@@ -1,0 +1,449 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="{% static 'breakconnect/css/current-chat.css' %}" />
+    <style>
+      @font-face {
+        font-family: "IBMPlexSans";
+        font-style: normal;
+        font-weight: 1 1000;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Regular.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Medium.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Bold.otf")
+          format("opentype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(235, 244, 248, 1)">
+    <input type="hidden" id="anPageName" name="page" value="current-chat" />
+    <div class="container-center-horizontal">
+      <div class="current-chat screen">
+        <div class="component-heade-lace-web-header-C61RwL">
+          <div class="component-heade-lace-web-header-fKQF6J">
+            <div class="component-heade-obal-navigation-bdw52J">
+              <div class="component-heade-obal-navigation-W4A8Nw">
+                <div class="component-heade-global-nav-item-Sp4knt">
+                  <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">Account</div>
+                </div>
+                <div class="component-heade-global-nav-item-9115Dx">
+                  <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">Schedule</div>
+                </div>
+                <div class="component-heade-global-nav-item-rDnUzp">
+                  <div class="component-heade-global-nav-item-aI4v3Y ibmplexsans-normal-charade-16px">Catchups</div>
+                </div>
+              </div>
+            </div>
+            <div class="logo-type-dark-bdw52J">
+              <div class="logo-type-dark-LeOJHj"></div>
+              <img class="rev-kit-LeOJHj" src="{% static 'breakconnect/img/revkit@1x.png' %}" />
+            </div>
+          </div>
+        </div>
+        <div class="elements-avatar-round-profile-C61RwL">
+          <img class="base-qx3FjC" src="{% static 'breakconnect/img/base-1@1x.png' %}" />
+          <img
+            class="elements-avatar-round-profile-qx3FjC smart-layers-pointers"
+            src="{% static 'breakconnect/img/elements-avatar-round-profile@1x.png' %}"
+          />
+        </div>
+        <div class="repeat-grid-1-C61RwL">
+          <div class="flex-col-mrdmCX">
+            <div class="x02-0CBWsV">
+              <div class="component-card-place-card-fill-Urjyxk smart-layers-pointers">
+                <div class="component-card-place-card-fill-tRnD1H">
+                  <div class="base-G5gIQj">
+                    <img class="mask-xWRnyg" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-xWRnyg" src="{% static 'breakconnect/img/base-2@1x.png' %}" />
+                  </div>
+                  <div class="icon-G5gIQj">
+                    <div class="icon-more-rbsea9">
+                      <img class="mask-cRxV9m" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-cRxV9m" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x31-0CBWsV">
+              <div class="component-card-place-card-fill-zjc3Gh smart-layers-pointers">
+                <div class="component-card-place-card-fill-xxUUwa">
+                  <div class="base-j7y2p0">
+                    <img class="mask-wdiT73" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-wdiT73" src="{% static 'breakconnect/img/base-5@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-j7y2p0">
+                    <div class="component-card-ght-description-LHwXmd ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-j7y2p0">
+                    <div class="icon-more-q1wJUy">
+                      <img class="mask-8syz7Y" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-8syz7Y" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-nVb0xz">
+            <div class="x12-xexdMT">
+              <div class="component-card-place-card-fill-Z3WJ58 smart-layers-pointers">
+                <div class="component-card-place-card-fill-QiYltZ">
+                  <div class="base-W6WzsC">
+                    <img class="mask-ScHTxZ" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-ScHTxZ" src="{% static 'breakconnect/img/base-3@1x.png' %}" />
+                  </div>
+                  <div class="component-card-bal-light-title-W6WzsC">
+                    <div class="component-card-bal-light-title-T0IrPW ibmplexsans-bold-white-28px">Mary</div>
+                  </div>
+                  <div class="component-card-ght-description-W6WzsC">
+                    <div class="component-card-ght-description-wKHPf2 ibmplexsans-normal-white-16px">
+                      My son Jim won a science fair at school!
+                    </div>
+                  </div>
+                  <div class="icon-W6WzsC">
+                    <div class="icon-more-fiCOg3">
+                      <img class="mask-BPxmid" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-BPxmid" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x41-xexdMT">
+              <div class="component-card-place-card-fill-txWtMC smart-layers-pointers">
+                <div class="component-card-place-card-fill-M7Z7wx">
+                  <div class="base-wR4Vp9">
+                    <img class="mask-MWSCBy" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-MWSCBy" src="{% static 'breakconnect/img/base-6@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-wR4Vp9">
+                    <div class="component-card-ght-description-retcnt ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-wR4Vp9">
+                    <div class="icon-more-DBHe8v">
+                      <img class="mask-zwsH1x" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-zwsH1x" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-p2pFTD">
+            <div class="x22-yGchdr">
+              <div class="component-card-place-card-fill-9WAm8b smart-layers-pointers">
+                <div class="component-card-place-card-fill-xQTt3I">
+                  <div class="base-de2r35">
+                    <img class="mask-zbC5x4" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-zbC5x4" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
+                  </div>
+                  <div class="component-card-bal-light-title-de2r35">
+                    <div class="component-card-bal-light-title-OcKxjD ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-de2r35">
+                    <div class="component-card-ght-description-0x4DUo ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-de2r35">
+                    <div class="icon-more-jHZp3o">
+                      <img class="mask-OYxhxF" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-OYxhxF" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x51-yGchdr">
+              <div class="component-card-place-card-fill-GwiyxW smart-layers-pointers">
+                <div class="component-card-place-card-fill-cich1u">
+                  <div class="base-ijqXaA">
+                    <img class="mask-Aix87U" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-Aix87U" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
+                  </div>
+                  <div class="component-card-bal-light-title-ijqXaA">
+                    <div class="component-card-bal-light-title-MhPEkZ ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-ijqXaA">
+                    <div class="component-card-ght-description-UN5eev ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-ijqXaA">
+                    <div class="icon-more-t2CLsM">
+                      <img class="mask-D0XlpB" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-D0XlpB" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="component-chart-ace-donut-chart-C61RwL">
+          <div class="component-chart-ace-donut-chart-ki4idv">
+            <img class="base-C698dA" src="{% static 'breakconnect/img/base-8@1x.png' %}" />
+            <div class="component-chart-ator-horizontal-C698dA">
+              <div class="component-chart-ator-horizontal-nKJ6RA"></div>
+            </div>
+            <div class="component-chart-title-text-C698dA">
+              <div class="component-card-hart-title-text-MGGDoP">
+                <div class="component-chart-bar-title-2JZCps ibmplexsans-bold-charade-34px">Mary</div>
+                <div class="contextual-subheading-2JZCps">Finance</div>
+              </div>
+            </div>
+            <div class="component-chart-lobal-title-bar-C698dA">
+              <div class="component-chart-lobal-title-bar-Uimb1q">
+                <div class="bar-title-3RU9MG ibmplexsans-medium-storm-gray-16px">3/4/21 - 13:47</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="elements-chat-b-ry-bottom-right-C61RwL">
+          <div class="elements-chat-b-ry-bottom-right-smvySe">
+            <img class="caret-vkbdQ8" src="{% static 'breakconnect/img/caret@1x.png' %}" />
+            <img class="base-vkbdQ8" src="{% static 'breakconnect/img/base-10@1x.png' %}" />
+            <div class="chat-message-vkbdQ8">My congrats to Jim! That&#39;s awesome, you must be pretty proud</div>
+          </div>
+        </div>
+        <div class="elements-chat-b-ght-bottom-left-C61RwL">
+          <div class="elements-chat-b-ght-bottom-left-xCBAx4">
+            <img class="caret-qYMxIX" src="{% static 'breakconnect/img/caret-1@1x.png' %}" />
+            <img class="base-qYMxIX" src="{% static 'breakconnect/img/base-11@1x.png' %}" />
+            <div class="chat-message-qYMxIX ibmplexsans-normal-storm-gray-14px">
+              Haha I&#39;ll pass it on! I am! He&#39;s been working so hard on it for ages
+            </div>
+          </div>
+        </div>
+        <div class="elements-popover-accent-top-C61RwL">
+          <div class="elements-popover-accent-top-7lxsMP">
+            <img class="base-K2ErQM" src="{% static 'breakconnect/img/base-12@1x.png' %}" />
+            <img class="caret-K2ErQM" src="{% static 'breakconnect/img/caret-2@1x.png' %}" />
+            <div class="info-K2ErQM"><div class="title-RvicGV">My son Jim won a science fair at school!</div></div>
+          </div>
+        </div>
+        <div class="elements-chat-b-ry-bottom-right-VMr6Om">
+          <div class="elements-chat-b-ry-bottom-right-wkx7tE">
+            <img class="caret-LgPFYY" src="{% static 'breakconnect/img/caret@1x.png' %}" />
+            <img class="base-LgPFYY" src="{% static 'breakconnect/img/base-13@1x.png' %}" />
+            <div class="chat-message-LgPFYY">What area of science is he interested in?</div>
+          </div>
+        </div>
+        <div class="elements-chat-b-ght-bottom-left-VMr6Om">
+          <div class="elements-chat-b-ght-bottom-left-jGxdro">
+            <img class="caret-TWMQzg" src="{% static 'breakconnect/img/caret-1@1x.png' %}" />
+            <img class="base-TWMQzg" src="{% static 'breakconnect/img/base-14@1x.png' %}" />
+            <div class="chat-message-TWMQzg ibmplexsans-normal-storm-gray-14px">
+              Paleontology! He&#39;s absolutely fascinated by dinosaurs at the moment
+            </div>
+          </div>
+        </div>
+        <div class="controls-text-field-C61RwL">
+          <div class="controls-text-field-normal-MNlqKi">
+            <img class="base-Ea04th" src="{% static 'breakconnect/img/base-15@1x.png' %}" />
+            <div class="placeholder-Ea04th ibmplexsans-normal-cerulean-frost-16px">
+              That&#39;s awesome I always loved Dinosaurs as a kid too!
+            </div>
+          </div>
+        </div>
+        <div class="icon-comment-C61RwL smart-layers-pointers">
+          <div class="icon-comment-9g6vfS">
+            <img class="mask-8AQ49U" src="{% static 'breakconnect/img/mask-18@1x.png' %}" />
+            <img class="icon-comment-8AQ49U" src="{% static 'breakconnect/img/icon-comment@1x.png' %}" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

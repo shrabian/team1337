@@ -1,0 +1,595 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="{% static 'breakconnect/css/start-break.css' %}" />
+    <style>
+      @font-face {
+        font-family: "IBMPlexSans";
+        font-style: normal;
+        font-weight: 1 1000;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Regular.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Medium.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b10cd378c5114000d1e52a5/IBMPlexSans-Bold.otf")
+          format("opentype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(235, 244, 248, 1)">
+    <input type="hidden" id="anPageName" name="page" value="start-break" />
+    <div class="container-center-horizontal">
+      <div class="start-break screen">
+        <div class="component-heade-lace-web-header-C61RwL">
+          <div class="component-heade-lace-web-header-fKQF6J">
+            <div class="component-heade-obal-navigation-bdw52J">
+              <div class="component-heade-obal-navigation-W4A8Nw">
+                <div class="component-heade-global-nav-item-Sp4knt">
+                  <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">Account</div>
+                </div>
+                <div class="component-heade-global-nav-item-9115Dx">
+                  <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">Schedule</div>
+                </div>
+                <div class="component-heade-global-nav-item-rDnUzp">
+                  <div class="component-heade-global-nav-item-aI4v3Y ibmplexsans-normal-charade-16px">Catchups</div>
+                </div>
+              </div>
+            </div>
+            <div class="logo-type-dark-bdw52J">
+              <div class="logo-type-dark-LeOJHj"></div>
+              <img class="rev-kit-LeOJHj" src="{% static 'breakconnect/img/revkit@1x.png' %}" />
+            </div>
+          </div>
+        </div>
+        <div class="elements-avatar-round-profile-C61RwL smart-layers-pointers">
+          <img class="base-qx3FjC" src="{% static 'breakconnect/img/base-1@1x.png' %}" />
+          <img class="elements-avatar-round-profile-qx3FjC" src="{% static 'breakconnect/img/elements-avatar-round-profile@1x.png' %}" />
+        </div>
+        <div class="repeat-grid-1-C61RwL">
+          <div class="flex-col-mrdmCX">
+            <div class="x03-0CBWsV">
+              <div class="component-card-place-card-fill-eSmzpk">
+                <div class="component-card-place-card-fill-gpo0Xg">
+                  <div class="base-KevRBB">
+                    <img class="mask-Dqex3z" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-Dqex3z" src="{% static 'breakconnect/imgbase-2@1x.png' %}" />
+                  </div>
+                  <div class="icon-KevRBB">
+                    <div class="icon-more-Ewn4tr">
+                      <img class="mask-BGM48X" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-BGM48X" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x32-0CBWsV">
+              <div class="component-card-place-card-fill-xscivW">
+                <div class="component-card-place-card-fill-yeotfJ">
+                  <div class="base-p0mNsI">
+                    <img class="mask-m5sDaM" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-m5sDaM" src="{% static 'breakconnect/img/base-5@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-p0mNsI">
+                    <div class="component-card-ght-description-Gv4IPy ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-p0mNsI">
+                    <div class="icon-more-SBqIfd">
+                      <img class="mask-Y1O9jG" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-Y1O9jG" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x6-0CBWsV">
+              <div class="component-card-place-card-fill-pBOcDB">
+                <div class="component-card-place-card-fill-Mb9ZGU">
+                  <div class="base-8idqLe">
+                    <img class="mask-T6pSRx" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-T6pSRx" src="{% static 'breakconnect/img/base-5@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-8idqLe">
+                    <div class="component-card-ght-description-G1WMKy ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-8idqLe">
+                    <div class="icon-more-WTdtMF">
+                      <img class="mask-vN55Eq" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-vN55Eq" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x9-0CBWsV">
+              <div class="component-card-place-card-fill-XRea6K">
+                <div class="component-card-place-card-fill-kz0gGj">
+                  <div class="base-jdIbpF">
+                    <img class="mask-WSPhQ8" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-WSPhQ8" src="{% static 'breakconnect/img/base-5@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-jdIbpF">
+                    <div class="component-card-ght-description-WEoU18 ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-jdIbpF">
+                    <div class="icon-more-6sVoF2">
+                      <img class="mask-x7jY0u" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-x7jY0u" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-nVb0xz">
+            <div class="x13-xexdMT">
+              <div class="component-card-place-card-fill-o0Sb3A">
+                <div class="component-card-place-card-fill-N9d5mw">
+                  <div class="base-bsXevi">
+                    <img class="mask-uVOaJJ" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-uVOaJJ" src="{% static 'breakconnect/img/base-50@1x.png' %}" />
+                  </div>
+                  <div class="icon-bsXevi">
+                    <div class="icon-more-K0PVYk">
+                      <img class="mask-O4CyCB" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-O4CyCB" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x42-xexdMT">
+              <div class="component-card-place-card-fill-vt7x2c">
+                <div class="component-card-place-card-fill-nZf04H">
+                  <div class="base-fDWndv">
+                    <img class="mask-qMxSqo" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-qMxSqo" src="{% static 'breakconnect/img/base-6@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-fDWndv">
+                    <div class="component-card-ght-description-XIIDV8 ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-fDWndv">
+                    <div class="icon-more-ILw5bz">
+                      <img class="mask-1THJSQ" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-1THJSQ" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x7-xexdMT">
+              <div class="component-card-place-card-fill-4JxkQ4">
+                <div class="component-card-place-card-fill-yZRjJ3">
+                  <div class="base-MSAPuW">
+                    <img class="mask-DxMUpf" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-DxMUpf" src="{% static 'breakconnect/img/base-6@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-MSAPuW">
+                    <div class="component-card-ght-description-pqXxRI ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-MSAPuW">
+                    <div class="icon-more-A36p8t">
+                      <img class="mask-VF78vX" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-VF78vX" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x10-xexdMT">
+              <div class="component-card-place-card-fill-371fpd">
+                <div class="component-card-place-card-fill-dPCHx7">
+                  <div class="base-PhY80s">
+                    <img class="mask-TDVTXX" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-TDVTXX" src="{% static 'breakconnect/img/base-6@1x.png' %}" />
+                  </div>
+                  <div class="component-card-ght-description-PhY80s">
+                    <div class="component-card-ght-description-1kAH2H ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-PhY80s">
+                    <div class="icon-more-sFjcZW">
+                      <img class="mask-5GEkI6" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-5GEkI6" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-p2pFTD">
+            <div class="x23-yGchdr">
+              <div class="component-card-place-card-fill-WBFlDx">
+                <div class="component-card-place-card-fill-iim12n">
+                  <div class="base-I2bID8">
+                    <img class="mask-PDQAbc" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-PDQAbc" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
+                  </div>
+                  <div class="component-card-bal-light-title-I2bID8">
+                    <div class="component-card-bal-light-title-02IEsm ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-I2bID8">
+                    <div class="component-card-ght-description-FpxE6u ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-I2bID8">
+                    <div class="icon-more-7B8wEb">
+                      <img class="mask-Nmm8BK" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-Nmm8BK" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x52-yGchdr">
+              <div class="component-card-place-card-fill-x9eCJW">
+                <div class="component-card-place-card-fill-jO7Jbx">
+                  <div class="base-S6B9rJ">
+                    <img class="mask-wnKpZ6" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-wnKpZ6" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
+                  </div>
+                  <div class="component-card-bal-light-title-S6B9rJ">
+                    <div class="component-card-bal-light-title-xTa7xx ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-S6B9rJ">
+                    <div class="component-card-ght-description-MqCY9y ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-S6B9rJ">
+                    <div class="icon-more-7nv1YF">
+                      <img class="mask-9cbUCy" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-9cbUCy" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x8-yGchdr">
+              <div class="component-card-place-card-fill-CP7E6q">
+                <div class="component-card-place-card-fill-K2tJMO">
+                  <div class="base-whzq2k">
+                    <img class="mask-XJtAJs" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-XJtAJs" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
+                  </div>
+                  <div class="component-card-bal-light-title-whzq2k">
+                    <div class="component-card-bal-light-title-ZeKCQc ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-whzq2k">
+                    <div class="component-card-ght-description-P0lPCp ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-whzq2k">
+                    <div class="icon-more-jfvC1V">
+                      <img class="mask-neRJxt" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-neRJxt" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x111-yGchdr">
+              <div class="component-card-place-card-fill-JKg0Dj">
+                <div class="component-card-place-card-fill-x1kc8k">
+                  <div class="base-45bVoZ">
+                    <img class="mask-X3b7Pr" src="{% static 'breakconnect/img/mask@1x.png' %}" />
+                    <img class="base-X3b7Pr" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
+                  </div>
+                  <div class="component-card-bal-light-title-45bVoZ">
+                    <div class="component-card-bal-light-title-nVngua ibmplexsans-bold-white-28px">Name</div>
+                  </div>
+                  <div class="component-card-ght-description-45bVoZ">
+                    <div class="component-card-ght-description-kP5Sd2 ibmplexsans-normal-white-16px">
+                      Life update lorem ipsum dahdfahjkdsah
+                    </div>
+                  </div>
+                  <div class="icon-45bVoZ">
+                    <div class="icon-more-99yzaK">
+                      <img class="mask-wQOKcN" src="{% static 'breakconnect/img/mask-2@1x.png' %}" />
+                      <img class="icon-more-wQOKcN" src="{% static 'breakconnect/img/icon-more@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="component-chart-ace-donut-chart-C61RwL">
+          <div class="component-chart-ace-donut-chart-ki4idv">
+            <img class="base-C698dA" src="{% static 'breakconnect/img/base-8@1x.png' %}" />
+            <div class="description-C698dA">What have you been up to recently?</div>
+            <div class="component-chart-ator-horizontal-C698dA">
+              <div class="component-chart-ator-horizontal-nKJ6RA"></div>
+              <div class="component-chart-ator-horizontal-3libMu"></div>
+            </div>
+            <div class="component-chart-title-text-C698dA">
+              <div class="component-card-hart-title-text-MGGDoP">
+                <div class="component-chart-bar-title-2JZCps ibmplexsans-bold-charade-34px">Start break</div>
+              </div>
+            </div>
+            <div class="component-chart-lobal-title-bar-C698dA">
+              <div class="component-chart-lobal-title-bar-Uimb1q">
+                <div class="bar-title-3RU9MG ibmplexsans-medium-storm-gray-16px">3/4/21</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controls-button-e-accent-normal-C61RwL smart-layers-pointers">
+          <div class="controls-button-e-accent-normal-VXTxzx">
+            <img class="base-XnWr8Z" src="{% static 'breakconnect/img/base-56@1x.png' %}" />
+            <div class="button-XnWr8Z ibmplexsans-medium-aqua-haze-16px">Start</div>
+          </div>
+        </div>
+        <div class="controls-place-stepper-C61RwL">
+          <div class="controls-place-stepper-Otyh26">
+            <div class="controls-stepper-LrsMw8">
+              <div class="controls-stepper-normal-0nqyaa">
+                <img class="base-1gSOvR" src="{% static 'breakconnect/img/base-57@1x.png' %}" />
+                <div class="lt-1gSOvR">
+                  <div class="icon-SPfpLP">
+                    <div class="icon-minus-9Ee9vO">
+                      <img class="mask-Yljvch" src="{% static 'breakconnect/img/mask-57@1x.png' %}" />
+                      <img class="icon-minus-Yljvch" src="{% static 'breakconnect/img/icon-minus@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+                <div class="rt-1gSOvR">
+                  <div class="icon-xnlDRE">
+                    <div class="icon-add-v8yzcE">
+                      <img class="mask-8K75xD" src="{% static 'breakconnect/img/mask-58@1x.png' %}" />
+                      <img class="icon-add-8K75xD" src="{% static 'breakconnect/img/icon-add@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+                <div class="x01-1gSOvR ibmplexsans-normal-charade-16px">01</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controls-place-stepper-VMr6Om">
+          <div class="controls-place-stepper-Jl4hgB">
+            <div class="controls-stepper-ZExxYQ">
+              <div class="controls-stepper-pressed-right-BhqUMw">
+                <img class="base-tXJOxK" src="{% static 'breakconnect/img/base-57@1x.png' %}" />
+                <div class="lt-tXJOxK">
+                  <div class="icon-NLRETS">
+                    <div class="icon-minus-H7Lcu9">
+                      <img class="mask-DAb1kZ" src="{% static 'breakconnect/img/mask-57@1x.png' %}" />
+                      <img class="icon-minus-DAb1kZ" src="{% static 'breakconnect/img/icon-minus@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+                <div class="rt-tXJOxK">
+                  <div class="icon-3AQZ7t">
+                    <div class="icon-add-Fxz5Rv">
+                      <img class="mask-Lovtys" src="{% static 'breakconnect/img/mask-58@1x.png' %}" />
+                      <img class="icon-add-Lovtys" src="{% static 'breakconnect/img/icon-add-1@1x.png' %}" />
+                    </div>
+                  </div>
+                </div>
+                <div class="x01-tXJOxK ibmplexsans-normal-charade-16px">15</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="type-muted-heading-x5-C61RwL">Hours</div>
+        <div class="type-muted-heading-x5-VMr6Om">Minutes</div>
+        <div class="controls-place-text-area-C61RwL">
+          <div class="controls-place-text-area-W02MGx">
+            <div class="controls-text-area-SiAuXE">
+              <div class="controls-text-area-placeholder-KQMZTh">
+                <img class="base-vKDJqZ" src="{% static 'breakconnect/img/base-63@1x.png' %}" />
+                <div class="placeholder-vKDJqZ ibmplexsans-normal-cerulean-frost-16px">
+                  I just bought a new telescope, I&#39;ve been dabbling in astrophotography recently!
+                </div>
+              </div>
+            </div>
+            <div class="controls-global-label-SiAuXE">
+              <div class="controls-global-label-lJQkl2">
+                <div class="label-lM6Gbi ibmplexsans-medium-storm-gray-16px">Status</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
