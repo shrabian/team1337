@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'usersapp.apps.UsersappConfig',
     'breakconnect.apps.BreakconnectConfig',
+    'crispy_forms',
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
