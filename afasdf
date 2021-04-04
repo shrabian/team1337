@@ -1,0 +1,36 @@
+* [33m4db5386[m[33m ([m[1;36mHEAD -> [m[1;32mforms[m[33m, [m[1;31morigin/forms[m[33m)[m django forms working on sign up page, not yet pushing to admin
+[31m|[m * [33mdb1d2e6[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Add users app to with django server
+[31m|[m *   [33m25544fe[m Merge pull request #3 from shrabian/develop
+[31m|[m [33m|[m[34m\[m  
+[31m|[m [33m|[m * [33mcdb4465[m[33m ([m[1;32mdevelop[m[33m)[m Fix startbreak button
+[31m|[m [33m|[m * [33m68b6841[m Add forms to start-break page
+[31m|[m [33m|[m[31m/[m  
+[31m|[m[31m/[m[33m|[m   
+* [33m|[m [33mdee450a[m Add forms to current-chat
+* [33m|[m [33m9e29b37[m Add forms to reset page
+* [33m|[m [33m9b4dcfb[m Add forms to sign-up page
+* [33m|[m [33m416a39a[m Add sign in form
+* [33m|[m [33md6db16a[m Add text fields to sign in page
+* [33m|[m [33m02cd33e[m Add links between pages
+[33m|[m[33m/[m  
+*   [33m7b8266f[m Merge pull request #2 from shrabian/develop
+[35m|[m[36m\[m  
+[35m|[m * [33m3981fb8[m directory has no use
+[35m|[m * [33m39d619a[m fixed all html formatting issues
+[35m|[m * [33m21caace[m Fix sign up page formatting
+[35m|[m * [33m12c2732[m add remaining html templates, not all are formatted correctly
+[35m|[m * [33mb05f9cd[m Fix errors with html sheets and static files
+[35m|[m *   [33m0d3ba82[m Merge branch 'develop' of https://github.com/shrabian/team1337 into develop
+[35m|[m [1;31m|[m[1;32m\[m  
+[35m|[m [1;31m|[m * [33m7843516[m Delete database_test directory
+[35m|[m * [1;32m|[m [33mf7648e7[m Working on setting up static files
+[35m|[m [1;32m|[m[1;32m/[m  
+* [1;32m|[m [33m1968dfc[m Merge pull request #1 from shrabian/develop
+[1;33m|[m[1;32m\[m[1;32m|[m 
+[1;33m|[m * [33m5524e34[m Add HTML sheets
+[1;33m|[m * [33m99588bb[m Add database integration and test data, altered settings.py
+[1;33m|[m[1;33m/[m  
+*   [33m47e27d1[m Merge branch 'master' of https://github.com/shrabian/team1337
+[1;35m|[m[1;36m\[m  
+[1;35m|[m * [33m5654fde[m Initial commit
+* [33m8b54091[m baseline django

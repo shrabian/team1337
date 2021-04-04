@@ -218,7 +218,7 @@
 <body style="margin: 0; background: rgba(235, 244, 248, 1)">
   <input type="hidden" id="anPageName" name="page" value="sign-up" />
   <div class="container-center-horizontal">
-    <form class="sign-up screen" name="form1" action="form1" method="post">
+    <form class="sign-up screen" action="/signup/" method="post">
       {% csrf_token %}
       <img class="base-C61RwL" src="{% static 'usersapp/img/base@1x.png' %}" />
       <div class="component-heade-ive-header-copy-C61RwL">
@@ -250,8 +250,8 @@
           <img class="base-x2VZAn" src="{% static 'usersapp/img/base-56@1x.png' %}" />
             <div class="controls-button-x2VZAn smart-layers-pointers">
               <button class="btn bg-transparent"  type="submit">Sign Up
-                <img class="base-qEpnVR" src="{% static 'breakconnect/img/base-3@1x.png' %}" />
-                <div class="button-qEpnVR ibmplexsans-medium-aqua-haze-16px">Sign Up</div>
+                <!-- <img class="base-qEpnVR" src="{% static 'breakconnect/img/base-3@1x.png' %}" />
+                <div class="button-qEpnVR ibmplexsans-medium-aqua-haze-16px">Sign Up</div> -->
               </button>
             </div>
           <div class="controls-place-checkbox-x2VZAn">
@@ -279,8 +279,6 @@
               <div class="controls-text-field-EWz6jK">
                 <div class="controls-text-field-normal-2c5cad">
                   <img class="base-DciiAQ" src="{% static 'usersapp/img/base-4@1x.png' %}" />
-                  <input class="placeholder-DciiAQ ibmplexsans-normal-cerulean-frost-16px" name="{{ form.orgcode.id_for_label }}"
-                    placeholder=" " required />
                 </div>
               </div>
             </div>
@@ -294,9 +292,7 @@
               </div>
               <div class="controls-text-field-MxyXZj">
                 <div class="controls-text-field-normal-x0C9nR">
-                  <img class="base-YRCzbi" src="{% static 'usersapp/img/base-4@1x.png' %}" />
-                  <input class="placeholder-YRCzbi ibmplexsans-normal-cerulean-frost-16px" name="{{ form.email.id_for_label }}"
-                    placeholder=" " type="email" required />
+                  {{ form.email }}
                 </div>
               </div>
             </div>
@@ -310,9 +306,7 @@
               </div>
               <div class="controls-text-field-tQEa6u">
                 <div class="controls-text-field-normal-Fuexmj">
-                  <img class="base-Tz9YPA" src="{% static 'usersapp/img/base-4@1x.png' %}" />
-                  <input class="placeholder-Tz9YPA ibmplexsans-normal-cerulean-frost-16px" name="{{ form.name.id_for_label }}"
-                    placeholder=" " required />
+                  {{ form.username }}
                 </div>
               </div>
             </div>
@@ -339,9 +333,7 @@
               </div>
               <div class="controls-text-field-UN9AEV">
                 <div class="controls-text-field-normal-GNaKcM">
-                  <img class="base-KmtF20" src="{% static 'usersapp/img/base-4@1x.png' %}" />
-                  <input class="placeholder-KmtF20 ibmplexsans-normal-cerulean-frost-16px" name="{{ form.password1.id_for_label }}"
-                    placeholder=" " required />
+                  {{ form.password1 }}
                 </div>
               </div>
             </div>
@@ -355,9 +347,7 @@
               </div>
               <div class="controls-text-field-5A0s7h">
                 <div class="controls-text-field-normal-xQaglx">
-                  <img class="base-8Nah4x" src="{% static 'usersapp/img/base-4@1x.png' %}" />
-                  <input class="placeholder-8Nah4x ibmplexsans-normal-cerulean-frost-16px" name="{{ form.password2.id_for_label }}"
-                    placeholder=" " required />
+                  {{ form.password2 }}
                 </div>
               </div>
             </div>

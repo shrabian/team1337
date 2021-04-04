@@ -2,6 +2,8 @@ from django.shortcuts import render,redirect
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
 from .forms import UserRegisterForm
+from django.contrib.auth.models import User
+
 
 # Create your views here.
 def sign_in(request):
@@ -9,11 +11,11 @@ def sign_in(request):
     return render(request, 'usersapp/sign-in.html', context)
 
 def sign_up(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         form = UserRegisterForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('blog-home')
+            return redirect('usersapp:sign-in')
     else:
         form = UserRegisterForm()
     return render(request, 'usersapp/sign-up.html', {'form': form})
