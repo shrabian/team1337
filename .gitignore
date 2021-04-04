@@ -1,2 +1,2 @@
-*.pyc
-*.sqlite3
+*.cpython-39.pyc
+db.sqlite3
