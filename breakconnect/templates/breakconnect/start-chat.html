@@ -219,13 +219,19 @@
             <div class="component-heade-obal-navigation-bdw52J">
               <div class="component-heade-obal-navigation-W4A8Nw">
                 <div class="component-heade-global-nav-item-Sp4knt">
-                  <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">Account</div>
+                  <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">
+                    <a href="{% url 'sign-out' %}">Sign Out</a>
+                  </div>
                 </div>
                 <div class="component-heade-global-nav-item-9115Dx">
-                  <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">Schedule</div>
+                  <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">
+                    <a href="{% url 'breakconnect:start-break' %}">Start Break</a>
+                  </div>
                 </div>
                 <div class="component-heade-global-nav-item-rDnUzp">
-                  <div class="component-heade-global-nav-item-aI4v3Y ibmplexsans-normal-charade-16px">Catchups</div>
+                  <div class="component-heade-global-nav-item-aI4v3Y ibmplexsans-normal-charade-16px">
+                    <a href="#">Account</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -343,7 +349,7 @@
           <div class="group-5-dXBp89">
             <div class="component-chart-ace-donut-chart-wbR61n">
               <div class="component-chart-ace-donut-chart-grpQ9Z">
-                <img class="base-tqJOii" src="{% static 'breakconnect/img/base-9@1x.png' %}" />
+                <img class="base-tqJOii" style="z-index:-5;" src="{% static 'breakconnect/img/base-9@1x.png' %}" />
                 <div class="description-tqJOii">Don&#39;t be shy, choose a co-worker to start a chat!</div>
                 <div class="component-chart-ator-horizontal-tqJOii">
                   <div class="component-chart-ator-horizontal-xVJ1U2"></div>
