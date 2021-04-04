@@ -1,2 +1,13 @@
 *.cpython-39.pyc
-*.sqlite3
+*.log
+
+*.pot
+
+*.pyc
+
+*/*/*/__pycache__/
+
+*/*/__pycache__/
+
+*/__pycache__/
+db.sqlite3
