@@ -218,7 +218,8 @@
 <body style="margin: 0; background: rgba(235, 244, 248, 1)">
   <input type="hidden" id="anPageName" name="page" value="sign-in" />
   <div class="container-center-horizontal">
-    <form class="sign-in screen" name="form1" action="form1" method="post">
+    <form class="sign-in screen" method="post">
+      {% csrf_token %}
       <div class="component-form-place-sign-in-C61RwL">
         <img class="base-r0SCOi" src="{% static 'usersapp/img/base-55@1x.png' %}" />
         <div class="component-form-global-link-r0SCOi">
@@ -226,11 +227,9 @@
             <a href="{% url 'usersapp:reset-password' %}">Forgot password?</a>
           </div>
         </div>
-        <a href="javascript:SubmitForm('form1')">
           <div class="controls-button-r0SCOi smart-layers-pointers">
             <div class="controls-button-e-accent-normal-wG9ECl">
-              <img class="base-9ExXe4" src="{% static 'usersapp/img/base-3@1x.png' %}" />
-              <div class="button-9ExXe4 ibmplexsans-medium-aqua-haze-16px">Sign In</div>
+              <button class="btn btn-outline-info" type="submit">Sign In</button>
             </div>
           </div>
         </a>
@@ -243,9 +242,7 @@
             </div>
             <div class="controls-text-field-XrNhcc">
               <div class="controls-text-field-normal-e6shCY">
-                <img class="base-g0kJNi" src="{% static 'usersapp/img/base-4@1x.png' %}" />
-                <input class="placeholder-g0kJNi ibmplexsans-normal-cerulean-frost-16px" name="placeholder1"
-                  placeholder=" " type="password" required />
+                {{ form.password }}
               </div>
             </div>
           </div>
@@ -254,14 +251,12 @@
           <div class="controls-place-text-field-K9Ereo">
             <div class="controls-global-label-s7Reux">
               <div class="controls-global-label-26ax0i">
-                <div class="label-zdZ5yG ibmplexsans-medium-storm-gray-16px">Email</div>
+                <div class="label-zdZ5yG ibmplexsans-medium-storm-gray-16px">Username</div>
               </div>
             </div>
             <div class="controls-text-field-s7Reux">
               <div class="controls-text-field-normal-fHxm8M">
-                <img class="base-HVzydu" src="{% static 'usersapp/img/base-4@1x.png' %}" />
-                <input class="placeholder-HVzydu ibmplexsans-normal-cerulean-frost-16px" name="placeholder11"
-                  placeholder=" " type="email" required />
+                {{ form.username }}
               </div>
             </div>
           </div>

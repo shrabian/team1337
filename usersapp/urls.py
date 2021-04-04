@@ -1,10 +1,12 @@
 from django.urls import path
 from . import views
+from django.contrib.auth import views as auth_views
 
 app_name = 'usersapp'
 
 urlpatterns = [
-    path('', views.sign_in, name = "sign-in"),
-    path('signup/', views.sign_up, name = "sign-up"),
     path('reset/', views.reset_password, name = "reset-password"),
+    path('sign-up/', views.sign_up, name = "sign-up"),
+    path('signup/', views.sign_up, name = "sign-up"),
+    path('sign-in/', auth_views.LoginView.as_view(template_name='usersapp/sign-in.html'), name = 'sign-in'),
 ]

@@ -209,7 +209,6 @@
     </style>
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   </head>
-  {% if user.is_authenticated %}
   <body style="margin: 0; background: rgba(235, 244, 248, 1)">
     <input type="hidden" id="anPageName" name="page" value="start-chat" />
     <div class="container-center-horizontal">
@@ -217,17 +216,40 @@
         <div class="component-heade-lace-web-header-C61RwL">
           <div class="component-heade-lace-web-header-fKQF6J">
             <div class="component-heade-obal-navigation-bdw52J">
+              {% if user.is_authenticated %}
+                <div class="component-heade-obal-navigation-W4A8Nw">
+                    <div class="component-heade-global-nav-item-Sp4knt">
+                        <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">
+                            <a href="{% url 'sign-out' %}">Sign Out</a>
+                        </div>
+                    </div>
+                    <div class="component-heade-global-nav-item-9115Dx">
+                        <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">
+                            <a href="{% url 'breakconnect:start-chat' %}">Start Chat</a>
+                        </div>
+                    </div>
+                    <div class="component-heade-global-nav-item-rDnUzp">
+                        <div class="component-heade-global-nav-item-aI4v3Y ibmplexsans-normal-charade-16px">
+                            <a href="#">Account</a>
+                        </div>
+                    </div>
+                </div>
+              {% else %}
               <div class="component-heade-obal-navigation-W4A8Nw">
-                <div class="component-heade-global-nav-item-Sp4knt">
-                  <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">Account</div>
+                    <div class="component-heade-global-nav-item-Sp4knt">
+                        <div class="component-heade-global-nav-item-a6SLZt ibmplexsans-normal-charade-16px">
+                            <a href="{% url 'sign-in' %}">Sign In</a>
+                        </div>
+                    </div>
+                    <a href="{% url 'usersapp:sign-up' %}">
+                    <div class="component-heade-global-nav-item-9115Dx">
+                        <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">
+                            Sign Up
+                        </div>
+                    </div>
+                    </a>
                 </div>
-                <div class="component-heade-global-nav-item-9115Dx">
-                  <div class="component-heade-global-nav-item-L5Zhlx ibmplexsans-normal-charade-16px">Schedule</div>
-                </div>
-                <div class="component-heade-global-nav-item-rDnUzp">
-                  <div class="component-heade-global-nav-item-aI4v3Y ibmplexsans-normal-charade-16px">Catchups</div>
-                </div>
-              </div>
+              {% endif %}
             </div>
             <div class="logo-type-dark-bdw52J">
               <div class="logo-type-dark-LeOJHj"></div>
@@ -343,7 +365,7 @@
           <div class="group-5-dXBp89">
             <div class="component-chart-ace-donut-chart-wbR61n">
               <div class="component-chart-ace-donut-chart-grpQ9Z">
-                <img class="base-tqJOii" src="{% static 'breakconnect/img/base-9@1x.png' %}" />
+                <img class="base-tqJOii" style="z-index:-5;" src="{% static 'breakconnect/img/base-9@1x.png' %}" />
                 <div class="description-tqJOii">Don&#39;t be shy, choose a co-worker to start a chat!</div>
                 <div class="component-chart-ator-horizontal-tqJOii">
                   <div class="component-chart-ator-horizontal-xVJ1U2"></div>
@@ -419,7 +441,4 @@
       </div>
     </div>
   </body>
-  {% else %}
-  <meta http-equiv="refresh" content="0; URL='{% url 'sign-in' %}'" />
-  {% endif %}
 </html>

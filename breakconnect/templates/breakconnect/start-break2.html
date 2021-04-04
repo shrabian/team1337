@@ -215,7 +215,6 @@
   <meta name="author" content="AnimaApp.com - Design to code, Automated." />
 </head>
 
-{% if user.is_authenticated %}
 <body style="margin: 0; background: rgba(235, 244, 248, 1)">
   <input type="hidden" id="anPageName" name="page" value="start-break" />
   <div class="container-center-horizontal">
@@ -435,7 +434,5 @@
     }
   </script>
 </body>
-{% else %}
-<meta http-equiv="refresh" content="0; URL='{% url 'sign-in' %}'" />
-{% endif %}
+
 </html>
