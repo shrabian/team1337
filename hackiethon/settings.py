@@ -23,10 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'nu#7!+cdnw57zf885@om0d#tp$gfto_*h*z=&&0u1acp&!=h1+'
+#SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['breakconnect.herokuapp.com']
 
@@ -133,7 +134,7 @@ LOGIN_REDIRECT_URL='/'
 
 # mysite/settings.py
 # Channels
-ASGI_APPLICATION = 'mychat.asgi.application'
+ASGI_APPLICATION = 'hackiethon.asgi.application'
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
