@@ -7,13 +7,6 @@
   font-style: normal;
   font-weight: 700;
 }
-.ibmplexsans-bold-white-28px {
-  color: var(--white);
-  font-family: 'IBMPlexSans-Bold', Helvetica;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-}
 .ibmplexsans-medium-aqua-haze-16px {
   color: var(--aqua-haze);
   font-family: 'IBMPlexSans-Medium', Helvetica;
@@ -49,20 +42,6 @@
   font-style: normal;
   font-weight: None;
 }
-.ibmplexsans-normal-storm-gray-14px {
-  color: var(--storm-gray);
-  font-family: 'IBMPlexSans', Helvetica;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: None;
-}
-.ibmplexsans-normal-white-16px {
-  color: var(--white);
-  font-family: 'IBMPlexSans', Helvetica;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: None;
-}
 .sign-up {
   background-color: var(--aqua-haze);
   height: 1080px;
@@ -70,6 +49,15 @@
   overflow-x: hidden;
   position: relative;
   width: 1920px;
+}
+.sign-up .base-8Nah4x {
+  background-color: transparent;
+  height: 146.15%;
+  left: -3.00%;
+  object-fit: cover;
+  position: absolute;
+  top: -15.38%;
+  width: 106.00%;
 }
 .sign-up .base-C61RwL {
   background-color: transparent;
@@ -136,11 +124,11 @@
 }
 .sign-up .base-x2VZAn {
   background-color: transparent;
-  height: 123.61%;
+  height: 121.81%;
   left: -20.87%;
   object-fit: cover;
   position: absolute;
-  top: -7.87%;
+  top: -7.27%;
   width: 141.74%;
 }
 .sign-up .button-qEpnVR {
@@ -214,7 +202,7 @@
 }
 .sign-up .component-form-place-sign-up-C61RwL {
   background-color: transparent;
-  height: 813px;
+  height: 880px;
   left: 988px;
   position: absolute;
   top: 84px;
@@ -228,25 +216,25 @@
   top: 0px;
   width: 100%;
 }
-.sign-up .component-heade-global-nav-item-IxTgWW {
+.sign-up .component-heade-global-nav-item-QyWSVK {
   background-color: transparent;
   height: 22px;
-  left: calc(400.00% - 168px);
+  left: 0px;
   letter-spacing: 0.00px;
   line-height: 16px;
   position: absolute;
   text-align: left;
   top: 10.00%;
   white-space: nowrap;
-  width: 42px;
+  width: 37px;
 }
-.sign-up .component-heade-global-nav-item-mxoZ1G {
+.sign-up .component-heade-global-nav-item-toEEsx {
   background-color: transparent;
-  height: 66.67%;
-  left: 43.59%;
-  position: absolute;
-  top: 16.67%;
-  width: 56.41%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
 }
 .sign-up .component-heade-ive-header-copy-C61RwL {
   background-color: transparent;
@@ -256,21 +244,21 @@
   top: 84px;
   width: 460px;
 }
-.sign-up .component-heade-ponsive-trigger-elyEUS {
+.sign-up .component-heade-ponsive-trigger-A7q6Rc {
+  background-color: transparent;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  top: calc(50.00% - 10px);
+  width: 35px;
+}
+.sign-up .component-heade-ponsive-trigger-f2gFTI {
   background-color: transparent;
   height: 100%;
   left: 0px;
   position: relative;
   top: 0px;
   width: 100%;
-}
-.sign-up .component-heade-ponsive-trigger-tHI9HX {
-  background-color: transparent;
-  height: 30px;
-  position: absolute;
-  right: 16px;
-  top: calc(50.00% - 15px);
-  width: 78px;
 }
 .sign-up .component-heade-sponsive-header-CkLYbh {
   background-color: transparent;
@@ -314,6 +302,21 @@ transform: scale(1.02);
   width: 28px;
 }
 .sign-up .controls-checkbox-normal-lESxtH {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.sign-up .controls-global-label-5A0s7h {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 20px;
+  position: relative;
+  width: 133px;
+}
+.sign-up .controls-global-label-6oRdfg {
   background-color: transparent;
   height: 100%;
   left: 0px;
@@ -402,7 +405,7 @@ transform: scale(1.02);
   height: 28px;
   left: 30px;
   position: absolute;
-  top: 668px;
+  top: 737px;
   width: 400px;
 }
 .sign-up .controls-place-checkbox-ynI4os {
@@ -426,6 +429,14 @@ transform: scale(1.02);
   position: relative;
   top: 0px;
   width: 100%;
+}
+.sign-up .controls-place-text-field-96GvJ4 {
+  background-color: transparent;
+  height: 80px;
+  left: 27px;
+  position: absolute;
+  top: 628px;
+  width: calc(100.00% - 57px);
 }
 .sign-up .controls-place-text-field-DdaYsx {
   background-color: transparent;
@@ -471,6 +482,20 @@ transform: scale(1.02);
   top: 0px;
   width: 100%;
 }
+.sign-up .controls-place-text-field-oZ8nty {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 0px;
+  min-height: 100%;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
 .sign-up .controls-place-text-field-vWNzVw {
   align-items: flex-start;
   background-color: transparent;
@@ -500,6 +525,15 @@ transform: scale(1.02);
   position: absolute;
   top: 172px;
   width: calc(100.00% - 60px);
+}
+.sign-up .controls-text-field-5A0s7h {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 52px;
+  margin-left: 3.55px;
+  margin-top: 8px;
+  position: relative;
+  width: 400px;
 }
 .sign-up .controls-text-field-EWz6jK {
   background-color: transparent;
@@ -558,6 +592,14 @@ transform: scale(1.02);
   top: 0px;
   width: 100%;
 }
+.sign-up .controls-text-field-normal-xQaglx {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
 .sign-up .controls-text-field-tQEa6u {
   background-color: transparent;
   flex-shrink: 1;
@@ -566,7 +608,32 @@ transform: scale(1.02);
   position: relative;
   width: 400px;
 }
-.sign-up .icon-menu-pDsVjJ {
+.sign-up .group-6-tHI9HX {
+  background-color: transparent;
+  height: 30px;
+  position: absolute;
+  right: 22px;
+  top: calc(50.00% - 15px);
+  width: 72px;
+}
+.sign-up .icon-cross-A7q6Rc {
+  background-color: transparent;
+  bottom: 0px;
+  height: 30px;
+  position: absolute;
+  right: 42px;
+  width: 30px;
+}
+.sign-up .icon-cross-HIvW8y {
+  background-color: transparent;
+  bottom: calc(50.00% - 7px);
+  height: 14px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(50.00% - 7px);
+  width: 14px;
+}
+.sign-up .icon-cross-m36VRF {
   background-color: transparent;
   background-image: url(../img/grid@1x.png);
   background-position: 50% 50%;
@@ -577,22 +644,17 @@ transform: scale(1.02);
   top: 0px;
   width: 100%;
 }
-.sign-up .icon-menu-toIDGu {
+.sign-up .label-0FH2dD {
   background-color: transparent;
-  height: 12px;
-  object-fit: cover;
-  position: absolute;
-  right: calc(50.00% - 8px);
-  top: calc(50.00% - 6px);
-  width: 16px;
-}
-.sign-up .icon-mxoZ1G {
-  background-color: transparent;
-  height: 100%;
+  height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  top: 0px;
-  width: 38.46%;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 135px;
 }
 .sign-up .label-LEH1AG {
   background-color: transparent;
@@ -673,58 +735,99 @@ transform: scale(1.02);
   position: absolute;
   width: 26px;
 }
-.sign-up .mask-toIDGu {
+.sign-up .mask-HIvW8y {
   background-color: transparent;
-  height: 40.00%;
-  left: 23.33%;
+  height: 46.67%;
+  left: 26.67%;
   object-fit: cover;
   position: absolute;
-  top: 30.00%;
-  width: 53.33%;
+  top: 26.67%;
+  width: 46.67%;
+}
+.sign-up .placeholder-8Nah4x {
+  background-color: transparent;
+  border: 0;
+  height: 22px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 16px;
+  width: calc(100.00% - 71px);
+}
+.sign-up .placeholder-8Nah4x::placeholder {
+  color: rgba(124,156,191,0.6);
 }
 .sign-up .placeholder-DciiAQ {
   background-color: transparent;
+  border: 0;
   height: 22px;
   left: 16px;
   letter-spacing: 0.00px;
   line-height: 16px;
+  padding: 0;
   position: absolute;
+  resize: none;
   text-align: left;
   top: 16px;
   width: calc(100.00% - 71px);
+}
+.sign-up .placeholder-DciiAQ::placeholder {
+  color: rgba(124,156,191,0.6);
 }
 .sign-up .placeholder-KmtF20 {
   background-color: transparent;
+  border: 0;
   height: 22px;
   left: 16px;
   letter-spacing: 0.00px;
   line-height: 16px;
+  padding: 0;
   position: absolute;
+  resize: none;
   text-align: left;
   top: 16px;
   width: calc(100.00% - 71px);
+}
+.sign-up .placeholder-KmtF20::placeholder {
+  color: rgba(124,156,191,0.6);
 }
 .sign-up .placeholder-Tz9YPA {
   background-color: transparent;
+  border: 0;
   height: 22px;
   left: 16px;
   letter-spacing: 0.00px;
   line-height: 16px;
+  padding: 0;
   position: absolute;
+  resize: none;
   text-align: left;
   top: 16px;
   width: calc(100.00% - 71px);
 }
+.sign-up .placeholder-Tz9YPA::placeholder {
+  color: rgba(124,156,191,0.6);
+}
 .sign-up .placeholder-YRCzbi {
   background-color: transparent;
+  border: 0;
   height: 22px;
   left: 16px;
   letter-spacing: 0.00px;
   line-height: 16px;
+  padding: 0;
   position: absolute;
+  resize: none;
   text-align: left;
   top: 16px;
   width: calc(100.00% - 71px);
+}
+.sign-up .placeholder-YRCzbi::placeholder {
+  color: rgba(124,156,191,0.6);
 }
 :root {
   --aqua-haze: rgba(235,244,248,1.0);
@@ -732,5 +835,4 @@ transform: scale(1.02);
   --charade: rgba(44,39,56,1.0);
   --steel-blue: rgba(8,128,174,1.0);
   --storm-gray: rgba(117,111,134,1.0);
-  --white: rgba(255,255,255,1.0);
 }

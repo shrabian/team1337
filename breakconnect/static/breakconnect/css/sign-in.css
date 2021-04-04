@@ -1,4 +1,8 @@
 /* screen - sign-in */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
 
 .ibmplexsans-bold-charade-34px {
   color: var(--charade);
@@ -477,22 +481,28 @@ transform: scale(1.02);
 }
 .sign-in .placeholder-HVzydu {
   background-color: transparent;
+  border: 0;
   height: 22px;
   left: 16px;
   letter-spacing: 0.00px;
   line-height: 16px;
+  padding: 0;
   position: absolute;
+  resize: none;
   text-align: left;
   top: 16px;
   width: calc(100.00% - 71px);
 }
 .sign-in .placeholder-g0kJNi {
   background-color: transparent;
+  border: 0;
   height: 22px;
   left: 16px;
   letter-spacing: 0.00px;
   line-height: 16px;
+  padding: 0;
   position: absolute;
+  resize: none;
   text-align: left;
   top: 16px;
   width: calc(100.00% - 71px);
