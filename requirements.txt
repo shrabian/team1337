@@ -47,7 +47,6 @@ six==1.15.0
 sqlparse==0.2.4
 toml==0.10.2
 Twisted==21.2.0
-//twisted-iocpsupport==1.0.1
 txaio==21.2.1
 virtualenv==20.4.3
 virtualenv-clone==0.5.4
