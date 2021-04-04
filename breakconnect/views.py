@@ -8,7 +8,3 @@ def start_break(request):
 def start_chat(request):
     context = {}
     return render(request, 'breakconnect/start-chat.html', context)
-
-def current_chat(request):
-    context = {}
-    return render(request, 'breakconnect/current-chat.html', context)
