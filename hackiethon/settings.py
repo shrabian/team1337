@@ -140,3 +140,5 @@ CHANNEL_LAYERS = {
         },
     },
 }
+
+LOGIN_REDIRECT_URL = 'breakconnect:home'

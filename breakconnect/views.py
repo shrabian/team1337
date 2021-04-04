@@ -12,3 +12,7 @@ def start_chat(request):
 def current_chat(request):
     context = {}
     return render(request, 'breakconnect/current-chat.html', context)
+
+def home(request):
+    context = {}
+    return render(request, 'breakconnect/start-chat.html', context)
