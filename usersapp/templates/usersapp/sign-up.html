@@ -8,7 +8,7 @@
   <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
   <meta name="og:type" content="website" />
   <meta name="twitter:card" content="photo" />
-  <link rel="stylesheet" type="text/css" href="{% static 'breakconnect/css/sign-up.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'usersapp/css/sign-up.css' %}" />
   <style>
     @font-face {
       font-family: "IBMPlexSans";
@@ -219,10 +219,11 @@
   <input type="hidden" id="anPageName" name="page" value="sign-up" />
   <div class="container-center-horizontal">
     <form class="sign-up screen" name="form1" action="form1" method="post">
-      <img class="base-C61RwL" src="{% static 'breakconnect/img/base@1x.png' %}" />
+      {% csrf_token %}
+      <img class="base-C61RwL" src="{% static 'usersapp/img/base@1x.png' %}" />
       <div class="component-heade-ive-header-copy-C61RwL">
         <div class="component-heade-sponsive-header-CkLYbh">
-          <a href="{% url 'breakconnect:sign-in' %}">
+          <a href="{% url 'usersapp:sign-in' %}">
             <div class="group-6-tHI9HX">
               <div class="component-heade-ponsive-trigger-A7q6Rc">
                 <div class="component-heade-ponsive-trigger-f2gFTI">
@@ -233,8 +234,8 @@
               </div>
               <div class="icon-cross-A7q6Rc">
                 <div class="icon-cross-m36VRF">
-                  <img class="mask-HIvW8y" src="{% static 'breakconnect/img/mask@1x.png' %}" />
-                  <img class="icon-cross-HIvW8y" src="{% static 'breakconnect/img/icon-cross@1x.png' %}" />
+                  <img class="mask-HIvW8y" src="{% static 'usersapp/img/mask@1x.png' %}" />
+                  <img class="icon-cross-HIvW8y" src="{% static 'usersapp/img/icon-cross@1x.png' %}" />
                 </div>
               </div>
             </div>
@@ -246,20 +247,18 @@
       </div>
       <div class="component-form-place-sign-up-C61RwL">
         <div class="component-form-place-sign-up-xVcXBI">
-          <img class="base-x2VZAn" src="{% static 'breakconnect/img/base-56@1x.png' %}" />
-          <a href="javascript:SubmitForm('form1')">
+          <img class="base-x2VZAn" src="{% static 'usersapp/img/base-56@1x.png' %}" />
             <div class="controls-button-x2VZAn smart-layers-pointers">
-              <div class="controls-button-e-accent-normal-UC2Ss6">
+              <button class="btn bg-transparent"  type="submit">Sign Up
                 <img class="base-qEpnVR" src="{% static 'breakconnect/img/base-3@1x.png' %}" />
                 <div class="button-qEpnVR ibmplexsans-medium-aqua-haze-16px">Sign Up</div>
-              </div>
+              </button>
             </div>
-          </a>
           <div class="controls-place-checkbox-x2VZAn">
             <div class="controls-place-checkbox-ynI4os">
               <div class="controls-checkbox-YqTEiH">
                 <div class="controls-checkbox-normal-lESxtH"><img class="base-pXuHzH"
-                    src="{% static 'breakconnect/img/base-4@1x.png' %}" /></div>
+                    src="{% static 'usersapp/img/base-4@1x.png' %}" /></div>
               </div>
               <div class="controls-global-label-YqTEiH">
                 <div class="controls-global-label-9DCnNr">
@@ -279,8 +278,8 @@
               </div>
               <div class="controls-text-field-EWz6jK">
                 <div class="controls-text-field-normal-2c5cad">
-                  <img class="base-DciiAQ" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
-                  <input class="placeholder-DciiAQ ibmplexsans-normal-cerulean-frost-16px" name="placeholder1"
+                  <img class="base-DciiAQ" src="{% static 'usersapp/img/base-4@1x.png' %}" />
+                  <input class="placeholder-DciiAQ ibmplexsans-normal-cerulean-frost-16px" name="{{ form.orgcode.id_for_label }}"
                     placeholder=" " required />
                 </div>
               </div>
@@ -295,8 +294,8 @@
               </div>
               <div class="controls-text-field-MxyXZj">
                 <div class="controls-text-field-normal-x0C9nR">
-                  <img class="base-YRCzbi" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
-                  <input class="placeholder-YRCzbi ibmplexsans-normal-cerulean-frost-16px" name="placeholder11"
+                  <img class="base-YRCzbi" src="{% static 'usersapp/img/base-4@1x.png' %}" />
+                  <input class="placeholder-YRCzbi ibmplexsans-normal-cerulean-frost-16px" name="{{ form.email.id_for_label }}"
                     placeholder=" " type="email" required />
                 </div>
               </div>
@@ -311,8 +310,8 @@
               </div>
               <div class="controls-text-field-tQEa6u">
                 <div class="controls-text-field-normal-Fuexmj">
-                  <img class="base-Tz9YPA" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
-                  <input class="placeholder-Tz9YPA ibmplexsans-normal-cerulean-frost-16px" name="placeholder12"
+                  <img class="base-Tz9YPA" src="{% static 'usersapp/img/base-4@1x.png' %}" />
+                  <input class="placeholder-Tz9YPA ibmplexsans-normal-cerulean-frost-16px" name="{{ form.name.id_for_label }}"
                     placeholder=" " required />
                 </div>
               </div>
@@ -320,7 +319,7 @@
           </div>
           <div class="component-form-global-link-x2VZAn">
             <div class="component-form-global-link-hU8uyr ibmplexsans-normal-steel-blue-16px">
-              <a href="{% url 'breakconnect:sign-in' %}">Sign In</a>
+              <a href="{% url 'usersapp:sign-in' %}">Sign In</a>
             </div>
           </div>
           <div class="component-form-bal-description-x2VZAn">
@@ -340,8 +339,8 @@
               </div>
               <div class="controls-text-field-UN9AEV">
                 <div class="controls-text-field-normal-GNaKcM">
-                  <img class="base-KmtF20" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
-                  <input class="placeholder-KmtF20 ibmplexsans-normal-cerulean-frost-16px" name="placeholder13"
+                  <img class="base-KmtF20" src="{% static 'usersapp/img/base-4@1x.png' %}" />
+                  <input class="placeholder-KmtF20 ibmplexsans-normal-cerulean-frost-16px" name="{{ form.password1.id_for_label }}"
                     placeholder=" " required />
                 </div>
               </div>
@@ -356,8 +355,8 @@
               </div>
               <div class="controls-text-field-5A0s7h">
                 <div class="controls-text-field-normal-xQaglx">
-                  <img class="base-8Nah4x" src="{% static 'breakconnect/img/base-4@1x.png' %}" />
-                  <input class="placeholder-8Nah4x ibmplexsans-normal-cerulean-frost-16px" name="placeholder14"
+                  <img class="base-8Nah4x" src="{% static 'usersapp/img/base-4@1x.png' %}" />
+                  <input class="placeholder-8Nah4x ibmplexsans-normal-cerulean-frost-16px" name="{{ form.password2.id_for_label }}"
                     placeholder=" " required />
                 </div>
               </div>
@@ -367,28 +366,5 @@
       </div>
     </form>
   </div>
-  <script>
-    /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
-
-    if (!HTMLFormElement.prototype.reportValidity) {
-      HTMLFormElement.prototype.reportValidity = function () {
-        if (this.checkValidity()) return true;
-        var btn = document.createElement("button");
-        this.appendChild(btn);
-        btn.click();
-        this.removeChild(btn);
-        return false;
-      };
-    }
-
-    function SubmitForm(form_name) {
-      var form = document.getElementsByName(form_name)[0];
-      if (form.reportValidity()) {
-        form.submit();
-        if (window.submitted) window.submitted();
-      }
-    }
-  </script>
 </body>
-
 </html>

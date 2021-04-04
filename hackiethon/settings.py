@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'usersapp.apps.UsersappConfig',
     'breakconnect.apps.BreakconnectConfig',
     'django.contrib.admin',
     'django.contrib.auth',
