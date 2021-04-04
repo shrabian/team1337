@@ -33,14 +33,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
- develop
     'usersapp.apps.UsersappConfig',
-=======
     'channels',
     'chat',
- master
     'breakconnect.apps.BreakconnectConfig',
-    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
