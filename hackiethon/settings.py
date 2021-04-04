@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'usersapp.apps.UsersappConfig',
     'breakconnect.apps.BreakconnectConfig',
     'crispy_forms',
     'users.apps.UsersConfig',
